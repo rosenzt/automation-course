@@ -2,12 +2,26 @@ package Question2;
 
 public class Tail {
 
+    private boolean hasOrNot;
     private double length;
     private String color;
 
-    public Tail(double length, String color) {
+    public Tail(boolean hasOrNot) {
+        this.hasOrNot = hasOrNot;
+    }
+
+    public Tail(boolean hasOrNot, double length, String color) {
+        this.hasOrNot = hasOrNot;
         this.length = length;
         this.color = color;
+    }
+
+    public boolean isHasOrNot() {
+        return hasOrNot;
+    }
+
+    public void setHasOrNot(boolean hasOrNot) {
+        this.hasOrNot = hasOrNot;
     }
 
     public double getLength() {
@@ -24,5 +38,13 @@ public class Tail {
 
     public void setColor(String color) {
         this.color = color;
+    }
+
+    public String getTailInfo() {
+        if (isHasOrNot()) {
+            return "The tail is " + getLength() + " cm long " + "and " + getColor() + ".";
+        } else {
+            return "The goat has no tail.";
+        }
     }
 }
