@@ -37,6 +37,6 @@ public class Book {
     }
 
     public String whoIsTheAuthor() {
-        return Author.getName();
+        return author.getName();
     }
 }
