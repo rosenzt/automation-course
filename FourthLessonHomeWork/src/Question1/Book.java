@@ -1,3 +1,5 @@
+package Question1;
+
 public class Book {
 
     private String name;
@@ -32,5 +34,9 @@ public class Book {
 
     public void setAuthor(Author author) {
         this.author = author;
+    }
+
+    public String whoIsTheAuthor() {
+        return Author.getName();
     }
 }
