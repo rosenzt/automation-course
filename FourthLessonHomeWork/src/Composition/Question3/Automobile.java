@@ -59,7 +59,7 @@ public class Automobile {
 //            if (i > radio.getStations().length) {
 //                i = i - 1;
 //            }
-            return radio.getStations()[i-1].getName();
+            return radio.getStations()[i - 1].getName();
         } else return "The radio is off.";
     }
 
@@ -76,8 +76,12 @@ public class Automobile {
             Wheel temp = getWheels()[location - 1];
             getWheels()[location - 1] = getWheels()[4];
             getWheels()[4] = temp;
+            getWheels()[4].setLocation(4);
+            getWheels()[location-1].setLocation(location-1);
+
             System.out.println("The wheel has been changed.");
             getWheelsStatus();
+
         } else System.out.println("The spare tire has already ben used, call assistance");
     }
 }

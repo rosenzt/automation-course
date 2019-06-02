@@ -30,5 +30,6 @@ public class Main {
         System.out.println(myCar.getRadioStation(1));
         myCar.getWheelsStatus();
         myCar.puncher(1);
+        myCar.puncher(2);
     }
 }
