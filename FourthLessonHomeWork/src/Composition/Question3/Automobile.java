@@ -77,11 +77,21 @@ public class Automobile {
             getWheels()[location - 1] = getWheels()[4];
             getWheels()[4] = temp;
             getWheels()[4].setLocation(4);
-            getWheels()[location-1].setLocation(location-1);
+            getWheels()[location - 1].setLocation(location - 1);
 
             System.out.println("The wheel has been changed.");
             getWheelsStatus();
 
         } else System.out.println("The spare tire has already ben used, call assistance");
     }
+
+    public int getWheelByName(String name) {
+        for (int i = 0; i < wheels.length; i++) {
+            if (getWheels()[i].equals(name)) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
 }

@@ -5,6 +5,7 @@ public class Wheel {
     private int location;
     private double pressure;
     private String manufacturer;
+    private String name;
 
     public Wheel(int location) {
         this.location = location;
@@ -38,5 +39,13 @@ public class Wheel {
 
     public void setManufacturer(String manufacturer) {
         this.manufacturer = manufacturer;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
