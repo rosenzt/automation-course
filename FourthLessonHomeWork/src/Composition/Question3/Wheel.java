@@ -2,27 +2,16 @@ package Composition.Question3;
 
 public class Wheel {
 
+    private String name;
     private int location;
     private double pressure;
     private String manufacturer;
-    private String name;
 
-    public Wheel(int location) {
-        this.location = location;
-    }
 
-    public Wheel(int location, double pressure, String manufacturer) {
-        this.location = location;
+    public Wheel(String name, double pressure, String manufacturer) {
+        this.name = name;
         this.pressure = pressure;
         this.manufacturer = manufacturer;
-    }
-
-    public int getLocation() {
-        return location;
-    }
-
-    public void setLocation(int location) {
-        this.location = location;
     }
 
     public double getPressure() {
@@ -45,7 +34,4 @@ public class Wheel {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
 }

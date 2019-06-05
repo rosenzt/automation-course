@@ -12,13 +12,13 @@ public class Main {
         Station station6 = new Station("Radius 100 FM", 100);
 
         Station[] stations = {station1, station2, station3, station4, station5, station6};
-        Radio radio = new Radio(false, stations);
+        Radio radio = new Radio(true, stations);
 
-        Wheel frontRight = new Wheel(0, 30, "Goodyear");
-        Wheel frontLeft = new Wheel(1, 30, "Goodyear");
-        Wheel rearRight = new Wheel(2, 30, "Goodyear");
-        Wheel rearLeft = new Wheel(3, 30, "Goodyear");
-        Wheel spare = new Wheel(4, 30, "Goodyear");
+        Wheel frontRight = new Wheel("Front right", 30, "Goodyear");
+        Wheel frontLeft = new Wheel("Front left", 30, "Goodyear");
+        Wheel rearRight = new Wheel("Rear right", 30, "Goodyear");
+        Wheel rearLeft = new Wheel("Rear left", 30, "Goodyear");
+        Wheel spare = new Wheel("Spare", 30, "Goodyear");
 
         Wheel[] wheels = {frontRight, frontLeft, rearRight, rearLeft, spare};
 
@@ -32,7 +32,8 @@ public class Main {
         System.out.println(myCar.getRadioStation(1));
 
         myCar.getWheelsStatus();
-        myCar.puncher(1);
-        myCar.puncher(-2);
+        myCar.puncher("Front right");
+        myCar.puncher("qsqsdbdf");
+        myCar.puncher("Rear left");
     }
 }

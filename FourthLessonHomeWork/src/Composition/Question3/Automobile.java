@@ -46,11 +46,19 @@ public class Automobile {
 
     public void turnOnOffRadio(String state) {
         if (state.equals("On") || state.equals("on") || state.equals("ON")) {
-            radio.setState(true);
-            System.out.println("The radio has been turned on.");
+            if (radio.isState()) {
+                System.out.println("The radio is already on.");
+            } else {
+                radio.setState(true);
+                System.out.println("The radio has been turned on.");
+            }
         } else if (state.equals("Off") || state.equals("off") || state.equals("OFF")) {
-            radio.setState(false);
-            System.out.println("The radio has been turned off.");
+            if (!radio.isState()) {
+                System.out.println("The radio is already off.");
+            } else {
+                radio.setState(false);
+                System.out.println("The radio has been turned off.");
+            }
         } else System.out.println("The state requested is not familiar");
     }
 
@@ -66,21 +74,18 @@ public class Automobile {
 
     public void getWheelsStatus() {
         for (int i = 0; i < getWheels().length; i++) {
-            System.out.println("The wheel at location " + getWheels()[i].getLocation() + " has a pressure of " + getWheels()[i].getPressure() + " PSI.");
+            System.out.println("The  " + getWheels()[i].getName() + " wheel has a pressure of " + getWheels()[i].getPressure() + " PSI.");
         }
     }
 
-    public void puncher(int location) {
+    public void puncher(String name) {
         try {
-            getWheels()[location - 1].setPressure(0);
+            getWheels()[getWheelByName(name)].setPressure(0);
 
             if (getWheels()[4].getPressure() != 0) {
-                Wheel temp = getWheels()[location - 1];
-                getWheels()[location - 1] = getWheels()[4];
+                Wheel temp = getWheels()[getWheelByName(name)];
+                getWheels()[getWheelByName(name)] = getWheels()[4];
                 getWheels()[4] = temp;
-                getWheels()[4].setLocation(4);
-                getWheels()[location - 1].setLocation(location - 1);
-
                 System.out.println("The wheel has been changed.");
                 getWheelsStatus();
 
@@ -92,7 +97,7 @@ public class Automobile {
 
     public int getWheelByName(String name) {
         for (int i = 0; i < wheels.length; i++) {
-            if (getWheels()[i].equals(name)) {
+            if (getWheels()[i].getName().equals(name)) {
                 return i;
             }
         }
