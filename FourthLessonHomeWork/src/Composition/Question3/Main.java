@@ -27,9 +27,12 @@ public class Main {
         System.out.println(myCar.getRadioState());
         System.out.println(myCar.getRadioStation(1));
         myCar.turnOnOffRadio("on");
+
+        System.out.println(myCar.getRadioStation(-1));
         System.out.println(myCar.getRadioStation(1));
+
         myCar.getWheelsStatus();
         myCar.puncher(1);
-        myCar.puncher(2);
+        myCar.puncher(-2);
     }
 }
