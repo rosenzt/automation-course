@@ -1,3 +1,5 @@
+package polymorphism;
+
 public class Rectangle extends Shape{
 
     private double width;
