@@ -12,6 +12,5 @@ public class Question3 {
         hmap.put("Germany", "Berlin");
 
         System.out.println(hmap.get("Israel"));
-        
     }
 }
