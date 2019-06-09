@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a15d0e7-f442-441d-8fd9-ad77dc325709" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../FifthLessonHomeWork/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FifthLessonHomeWork/src/Collections/Question2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FifthLessonHomeWork/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FifthLessonHomeWork/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FourthLessonHomeWork/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FourthLessonHomeWork/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polymorphism/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polymorphism/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polymorphism/Shape.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -136,7 +127,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559899431330" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559899513376" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -166,7 +157,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1280" height="712" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

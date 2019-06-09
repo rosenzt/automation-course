@@ -1,8 +1,9 @@
-package Collections.Question2;
+package Collections;
 
 import java.util.ArrayList;
 
-public class Main {
+public class Question2 {
+
     public static void main(String[] args) {
 
         ArrayList<Integer> list = new ArrayList<>();
@@ -19,7 +20,7 @@ public class Main {
 
     public static Integer findMax(ArrayList<Integer> list) {
         Integer max = list.get(0);
-        for (int i=0; i<list.size(); i++) {
+        for (int i = 0; i < list.size(); i++) {
             if (list.get(i) > max) {
                 max = list.get(i);
             }
@@ -29,7 +30,7 @@ public class Main {
 
     public static Integer findMin(ArrayList<Integer> list) {
         Integer min = list.get(0);
-        for (int i=0; i<list.size(); i++) {
+        for (int i = 0; i < list.size(); i++) {
             if (list.get(i) < min) {
                 min = list.get(i);
             }
@@ -37,5 +38,7 @@ public class Main {
         return min;
     }
 
-
 }
+
+
+
