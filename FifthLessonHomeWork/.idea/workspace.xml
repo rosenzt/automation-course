@@ -2,13 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33ed6396-0a38-4cc1-82a4-43a037df3366" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Collections/Question5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SummaryExercise/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SummaryExercise/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SummaryExercise/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SummaryExercise/RightTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SummaryExercise/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SummaryExercise/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstLessonHomeWork/src/.idea/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstLessonHomeWork/src/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FifthLessonHomeWork/Collections/Question5/Download.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FifthLessonHomeWork/SummaryExercise/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FifthLessonHomeWork/SummaryExercise/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FifthLessonHomeWork/SummaryExercise/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FifthLessonHomeWork/SummaryExercise/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FifthLessonHomeWork/SummaryExercise/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FifthLessonHomeWork/SummaryExercise/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FifthLessonHomeWork/SummaryExercise/RightTriangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FifthLessonHomeWork/SummaryExercise/RightTriangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FifthLessonHomeWork/SummaryExercise/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FifthLessonHomeWork/SummaryExercise/Square.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SummaryExercise/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SummaryExercise/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SummaryExercise/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SummaryExercise/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SummaryExercise/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SummaryExercise/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SummaryExercise/RightTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SummaryExercise/RightTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SummaryExercise/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SummaryExercise/Square.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +30,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SummaryExercise/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="1185">
+              <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -34,8 +45,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SummaryExercise/Square.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="120">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <folding>
+                <element signature="e#126#127#0" expanded="true" />
+                <element signature="e#160#161#0" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#236#237#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,8 +62,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SummaryExercise/Rectangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="180">
+              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+              <folding>
+                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+                <element signature="e#436#437#0" expanded="true" />
+                <element signature="e#480#481#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,8 +80,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SummaryExercise/Circle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="150">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+              <folding>
+                <element signature="e#128#129#0" expanded="true" />
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,20 +96,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SummaryExercise/RightTriangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="30">
+              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="26" />
+              <folding>
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#490#491#0" expanded="true" />
+                <element signature="e#524#525#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Collections/Question5.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SummaryExercise/Shape.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -110,13 +152,20 @@
         <option value="$PROJECT_DIR$/src/Collections/Question5/Download.java" />
         <option value="$PROJECT_DIR$/src/Collections/Question5/Question5.java" />
         <option value="$PROJECT_DIR$/src/Collections/Question5.java" />
+        <option value="$PROJECT_DIR$/src/SummaryExercise/Shape.java" />
+        <option value="$PROJECT_DIR$/src/SummaryExercise/Square.java" />
+        <option value="$PROJECT_DIR$/src/SummaryExercise/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/SummaryExercise/Circle.java" />
+        <option value="$PROJECT_DIR$/src/SummaryExercise/RightTriangle.java" />
+        <option value="$PROJECT_DIR$/src/SummaryExercise/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1920" />
     <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="712" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -178,13 +227,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Question5">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.Question2.Main" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SummaryExercise.Main" />
       <module name="FifthLessonHomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Collections.Question2.*" />
+          <option name="PATTERN" value="SummaryExercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -246,6 +295,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Question5" />
         <item itemvalue="Application.Question4" />
         <item itemvalue="Application.Question3" />
@@ -267,9 +317,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="52" y="23" width="1868" height="1057" extended-state="0" />
+    <frame x="1920" y="23" width="1920" height="1057" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25520262" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24813631" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -278,7 +329,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32953367" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32901135" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3284974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -346,34 +397,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SummaryExercise/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SummaryExercise/Square.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SummaryExercise/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SummaryExercise/RightTriangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Collections/Question4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -381,13 +404,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SummaryExercise/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -461,8 +477,87 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Collections/Question5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="390">
+          <caret line="26" column="56" lean-forward="true" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SummaryExercise/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SummaryExercise/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SummaryExercise/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SummaryExercise/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SummaryExercise/RightTriangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="26" />
+          <folding>
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SummaryExercise/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
+          <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
