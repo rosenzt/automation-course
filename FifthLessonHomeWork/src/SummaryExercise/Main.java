@@ -16,6 +16,14 @@ public class Main {
             switch (choice) {
                 case 1:
                     addNewShape(shapes);
+                case 2:
+                    listAllShapes(shapes);
+                case 3:
+                    sumAllCircumferences(shapes);
+                case 4:
+                    sumAllArea(shapes);
+                case 5:
+                    findBiggestCircumference(shapes);
             }//switch case
         } while (choice != 7);
 
@@ -77,6 +85,40 @@ public class Main {
         }//Switch-case
     }//addNewShape
 
-    
+    public static void listAllShapes(ArrayList<Shape> list) {
+        for (Shape s : list) {
+            System.out.println(s.toString());
+        }
+    }//listAllShapes
+
+    public static void sumAllCircumferences(ArrayList<Shape> list) {
+        double sum = 0;
+        for (Shape s : list) {
+            sum = +s.calcCircumferences();
+        }
+        System.out.println(sum);
+    }
+
+    public static void sumAllArea(ArrayList<Shape> list) {
+        double sum = 0;
+        for (Shape s : list) {
+            sum = +s.calcArea();
+        }
+        System.out.println("The total area is " + sum);
+    }
+
+    public static void findBiggestCircumference(ArrayList<Shape> list) {
+        Shape biggestShape = new Shape();
+        double max = 0;
+        for (Shape s : list) {
+            if (s.calcCircumferences() > max) {
+                max = s.calcCircumferences();
+                biggestShape = s;
+            }//if
+        }//for
+        System.out.println(biggestShape.toString() + "\nThe circumference is " + max);
+    }//findBiggestCircumference
+
+
 } //class
 

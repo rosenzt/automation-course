@@ -15,4 +15,17 @@ public class Square extends Shape {
     public double getWidth() {
         return width;
     }
+
+    @Override
+    public String toString() {
+        return "Square: width = " + width + '.';
+    }
+
+    public double calcCircumferences(){
+        return width*4;
+    }
+
+    public double calcArea(){
+        return  Math.pow(width,2);
+    }
 }

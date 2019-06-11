@@ -15,4 +15,17 @@ public class Circle extends Shape {
     public void setRadius(double radius) {
         this.radius = radius;
     }
+
+    @Override
+    public String toString() {
+        return "Circle: radius = " + radius + '.';
+    }
+
+    public double calcCircumferences(){
+        return 2*(Math.PI*radius);
+    }
+
+    public double calcArea(){
+        return  Math.PI*(Math.pow(radius,2));
+    }
 }

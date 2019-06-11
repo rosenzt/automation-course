@@ -25,4 +25,17 @@ public class RightTriangle extends Shape {
     public void setWidth(double width) {
         this.width = width;
     }
+
+    @Override
+    public String toString() {
+        return "RightTriangle: + height = " + height + ", width = " + width + '.';
+    }
+
+    public double calcCircumferences() {
+        return width + height + Math.sqrt((Math.pow(width, 2) + Math.pow(height, 2)));
+    }
+
+    public double calcArea() {
+        return (height * width) / 2;
+    }
 }

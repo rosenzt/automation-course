@@ -25,4 +25,17 @@ public class Rectangle extends Shape {
     public void setLength(double length) {
         this.length = length;
     }
+
+    @Override
+    public String toString() {
+        return "Rectangle: width = " + width + ", length = " + length + '.';
+    }
+
+    public double calcCircumferences(){
+        return (width*2)+(length*2);
+    }
+
+    public double calcArea(){
+        return  width*length;
+    }
 }
