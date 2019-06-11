@@ -16,14 +16,26 @@ public class Main {
             switch (choice) {
                 case 1:
                     addNewShape(shapes);
+                    break;
                 case 2:
                     listAllShapes(shapes);
+                    break;
                 case 3:
                     sumAllCircumferences(shapes);
+                    break;
                 case 4:
                     sumAllArea(shapes);
+                    break;
                 case 5:
                     findBiggestCircumference(shapes);
+                    break;
+                case 6:
+                    findBiggestArea(shapes);
+                    break;
+                case 7:
+                    break;
+                default:
+                    System.out.println("The choice entered is invalid.");
             }//switch case
         } while (choice != 7);
 
@@ -45,7 +57,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String shape = scanner.nextLine();
 
-        System.out.println("Please choose which shape to add:\n " +
+        System.out.println("Please choose which shape to add:\n" +
                 "1. Square\n" +
                 "2. Rectangle\n" +
                 "3. Circle\n" +
@@ -119,6 +131,17 @@ public class Main {
         System.out.println(biggestShape.toString() + "\nThe circumference is " + max);
     }//findBiggestCircumference
 
+    public static void findBiggestArea(ArrayList<Shape> list) {
+        Shape biggestShape = new Shape();
+        double max = 0;
+        for (Shape s : list) {
+            if (s.calcArea() > max) {
+                max = s.calcArea();
+                biggestShape = s;
+            }//if
+        }//for
+        System.out.println(biggestShape.toString() + "\nThe area is " + max);
+    }//findBiggestCircumference
 
 } //class
 
