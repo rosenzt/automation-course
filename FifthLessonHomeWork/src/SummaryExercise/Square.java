@@ -18,7 +18,7 @@ public class Square extends Shape {
 
     @Override
     public String toString() {
-        return "Square: width = " + width + '.';
+        return "Square: width = " + width + ".\n";
     }
 
     public double calcCircumferences(){
