@@ -21,11 +21,11 @@ public class Circle extends Shape {
         return "Circle: radius = " + radius + ".\n";
     }
 
-    public double calcCircumferences(){
-        return 2*(Math.PI*radius);
+    public double calcCircumferences() {
+        return 2 * (Math.PI * radius);
     }
 
-    public double calcArea(){
-        return  Math.PI*(Math.pow(radius,2));
+    public double calcArea() {
+        return Math.PI * (Math.pow(radius, 2));
     }
 }
