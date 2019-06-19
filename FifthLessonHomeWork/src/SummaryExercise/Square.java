@@ -21,11 +21,11 @@ public class Square extends Shape {
         return "Square: width = " + width + ".\n";
     }
 
-    public double calcCircumferences(){
-        return width*4;
+    public double calcCircumferences() {
+        return width * 4;
     }
 
-    public double calcArea(){
-        return  Math.pow(width,2);
+    public double calcArea() {
+        return Math.pow(width, 2);
     }
 }

@@ -28,7 +28,7 @@ public class RightTriangle extends Shape {
 
     @Override
     public String toString() {
-        return "RightTriangle: + height = " + height + ", width = " + width + ".\n";
+        return "Right Triangle: height = " + height + ", width = " + width + ".\n";
     }
 
     public double calcCircumferences() {

@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class Question1 {
-
     public static void main(String[] args) {
         ArrayList<String> listOfCountries = new ArrayList<String>();
 

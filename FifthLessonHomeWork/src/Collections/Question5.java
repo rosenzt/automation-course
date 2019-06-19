@@ -18,7 +18,6 @@ import java.net.MalformedURLException;
  */
 
 public class Question5 {
-
     public static void main(String args[]) throws IOException {
         String url = "https://www.geeksforgeeks.org/";
         downloadWebPage(url);
