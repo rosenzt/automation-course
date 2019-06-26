@@ -8,16 +8,19 @@ public class Question4 {
 
     public static void main(String[] args) {
 
-        System.setProperty("webdriver.chrome.driver", "/Users/tal/automation/drivers/chromedriver");
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.get("https://www.google.com");
-
+        lunchSite("https://www.google.com");
         runTest("___Google logo___", "#hplogo", "id");
         runTest("___Login button___", "#gb_70", "id");
         runTest("___\"Footer\"___", "#SIvCob", "id");
 
         driver.quit();
+    }
+
+    private static void lunchSite(String URL) {
+        System.setProperty("webdriver.chrome.driver", "/Users/tal/automation/drivers/chromedriver");
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.get(URL);
     }
 
     private static void runTest(String element, String selector, String attributeName) {
