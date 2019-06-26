@@ -15,9 +15,8 @@ public class SeleniumOrg {
 
     public static boolean visitPage(String URL) {
         lunchSite(URL);
-        if (driver.getCurrentUrl().equals(URL)) {
-            return true;
-        } else return false;
+        return driver.getCurrentUrl().equals(URL);
+         
     }//visitPage
 
     public static boolean isItSeleniumSite() {
@@ -29,9 +28,6 @@ public class SeleniumOrg {
     }
 
     public static boolean isTextExist(String text) {
-        if (driver.getPageSource().contains(text)) {
-            return true;
-        } else
-            return false;
+       return driver.getPageSource().contains(text);
     }
 }

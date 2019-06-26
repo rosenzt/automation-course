@@ -21,6 +21,6 @@ public class Question3 {
         driver.findElement(By.cssSelector("#searchBtnLowerLnk")).click();
         driver.navigate().back();
         driver.findElement(By.cssSelector(".btn.btn-prim")).click();
-
+        driver.quit();
     }
 }
