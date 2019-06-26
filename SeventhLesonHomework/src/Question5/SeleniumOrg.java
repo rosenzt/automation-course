@@ -30,4 +30,7 @@ public class SeleniumOrg {
     public static boolean isTextExist(String text) {
        return driver.getPageSource().contains(text);
     }
+    public static void closeBrowser(){
+        driver.quit();
+    }
 }
