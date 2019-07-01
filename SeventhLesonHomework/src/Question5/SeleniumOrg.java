@@ -1,7 +1,7 @@
 package Question5;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+        import org.openqa.selenium.WebDriver;
+        import org.openqa.selenium.chrome.ChromeDriver;
 
 public class SeleniumOrg {
     private static WebDriver driver;
@@ -16,21 +16,17 @@ public class SeleniumOrg {
     public static boolean visitPage(String URL) {
         lunchSite(URL);
         return driver.getCurrentUrl().equals(URL);
-         
     }//visitPage
 
     public static boolean isItSeleniumSite() {
         //lunchSite("http://www.seleniumhq.org");
-
-        if (driver.getTitle().contains("Selenium - Web Browser Automation") || driver.getTitle().contains("Selenium")) {
+        if (driver.getTitle().contains("Selenium - Web Browser Automation") | driver.getTitle().contains("Selenium")) {
             return true;
         } else return false;
     }
 
     public static boolean isTextExist(String text) {
-       return driver.getPageSource().contains(text);
-    }
-    public static void closeBrowser(){
-        driver.quit();
+        
+        return driver.getPageSource().contains(text);
     }
 }
