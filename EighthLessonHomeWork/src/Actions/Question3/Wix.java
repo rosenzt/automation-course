@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Wix {
@@ -16,18 +17,27 @@ public class Wix {
         driver.manage().window().maximize();
         driver.get("https://www.wix.com/jobs/locations/tel-aviv/positions");
 
-        Thread.sleep(10000);
+        Thread.sleep(3000);
+       // List<WebElement> javaPositions = new ArrayList<WebElement>();
 
-        List<WebElement> list = driver.findElements(By.cssSelector(".style-jozadwanchooseFileButton"));
+        List<WebElement> list = driver.findElements(By.cssSelector(".style-jozadwanchooseFileButton > [href]"));
+
         for (WebElement w : list) {
-            w.click();
+            driver.navigate().to(w.getAttribute("href"));
             Thread.sleep(3000);
-            driver.findElement(By.cssSelector("#comp-jl21s07ninlineContent")).getText();
-           
+            if (driver.findElement(By.cssSelector("#comp-jl21s07ninlineContent")).getText().contains("java")) {
+                //javaPositions.add(w);
+                System.out.println(w.getText());
+            }
 
+            driver.navigate().back();
+            Thread.sleep(5000);
         }
+
+//        for (WebElement i : javaPositions) {
+//            System.out.println(i.getText());
+//        }
         driver.quit();
+
     }//main
-
-
 }//class
