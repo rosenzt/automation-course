@@ -8,9 +8,7 @@ public class Main {
         System.setProperty("webdriver.chrome.driver", "/Users/tal/automation/drivers/chromedriver");
         WebDriver driver = new ChromeDriver();
 
-        Flightconnections flightconnections = new Flightconnections(driver);
-
-        flightconnections.lunchSite();
-        flightconnections.insertDestinations();
+        FlightConnections flightconnections = new FlightConnections(driver);
+        flightconnections.flight(driver,"TLV", "Vienna");
     }
 }
