@@ -1,4 +1,4 @@
-package Actions.Question3;
+package Actions.Question4;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -33,22 +33,34 @@ public class Wix {
             for (String url : URLs) {
                 driver.navigate().to(url);
                 index++;
+                WebElement we = driver.findElement(By.cssSelector("#comp-jl21s07ninlineContent"));
                 Thread.sleep(3000);
-                if (driver.findElement(By.cssSelector("#comp-jl21s07ninlineContent")).getText().contains("java")) {
+                if (we.getText().contains("java") || we.getText().contains("Java") || we.getText().contains("JAVA")) {
                     javaPositions.add(list.get(URLs.indexOf(url)));
-                }
+                    System.out.println(list.get(index).getText());
+                }else System.out.println("Index" + index + "has no Java.");
                 driver.navigate().to("https://www.wix.com/jobs/locations/tel-aviv/positions");
-                Thread.sleep(3000);
-            }
+             }
         } catch (Exception e) {
-            System.out.println(index);
+            System.out.println(index + "\n" + e);
+            driver.navigate().to("https://www.wix.com/jobs/locations/tel-aviv/positions");
+            Thread.sleep(3000);
             for (WebElement i : javaPositions) {
                 System.out.println(i.getText());
             }
         }
 
-        for (WebElement i : javaPositions) {
-            System.out.println(i.getText());
+        System.out.println(index);
+        driver.navigate().to("https://www.wix.com/jobs/locations/tel-aviv/positions");
+        Thread.sleep(3000);
+       // for (WebElement i : javaPositions) {
+        for (WebElement i : list) {
+            try {
+                System.out.println(i.getText());
+            } catch (Exception e) {
+                System.out.println(e);
+                continue;
+            }
         }
 
         driver.quit();
