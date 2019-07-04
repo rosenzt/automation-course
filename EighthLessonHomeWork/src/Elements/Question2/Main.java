@@ -13,22 +13,8 @@ public class Main {
         System.setProperty("webdriver.chrome.driver", "/Users/tal/automation/drivers/chromedriver");
         WebDriver driver = new ChromeDriver();
 
-        driver.findElements(By.cssSelector("a"));
-        List<WebElement> list = driver.findElements(By.cssSelector("a"));
-        System.out.println("------------------------");
-
-        for (WebElement e : list) {
-            System.out.println(e.getText());
-        }
-
-        System.out.println("------------------------");
-
-        for (WebElement e : list) {
-            if (e.getText().contains("fight")){
-                System.out.println(e.getText());
-            }
-
-        }
+        Alitalia alitalia = new Alitalia(driver);
+        alitalia.alitaliaFindLinks(driver, "flight");
 
     }
 }

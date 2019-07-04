@@ -20,9 +20,9 @@ public class Alitalia {
         driver.get("https://www.alitalia.com/en_il");
     }
 
-    private void creatList() {
+    private void createList() {
         driver.findElements(By.cssSelector("a"));
-        List<WebElement> list = driver.findElements(By.cssSelector("a"));
+        list = driver.findElements(By.cssSelector("a"));
     }
 
     private void displayList() {
@@ -32,14 +32,24 @@ public class Alitalia {
         System.out.println("-------- Full links list is done --------");
     }
 
-    private void displayCertainLinks() {
+    private void displayCertainLinks(String stringToFind) {
         for (WebElement e : list) {
-            if (e.getText().contains("fight")) {
+            if (e.getText().contains(stringToFind)) {
                 System.out.println(e.getText());
             }
-            System.out.println("--------Selected links list is done--------");
         }
+        System.out.println("--------Selected links list is done--------");
     }
 
+    private void closeBrowser() {
+        driver.quit();
+    }
 
+    public void alitaliaFindLinks(WebDriver driver, String stringToFind) {
+        lunchSite(driver);
+        createList();
+        displayList();
+        displayCertainLinks(stringToFind);
+        closeBrowser();
+    }
 }
