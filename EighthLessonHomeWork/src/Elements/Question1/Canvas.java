@@ -7,15 +7,16 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Canvas {
     private WebDriver driver;
 
-    public void lunchSite() {
-        System.setProperty("webdriver.chrome.driver", "/Users/tal/automation/drivers/chromedriver");
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
+    public Canvas(WebDriver driver) {
+        this.driver = driver;
+    }
 
+    private void lunchSite(WebDriver driver) {
+        driver.manage().window().maximize();
         driver.get("https://prd.canvusapps.com/signup");
     }
 
-    public void fillInvalidData() {
+    private void fillInvalidData() {
         driver.findElement(By.cssSelector("#user_name")).sendKeys("#&^%*^");
         driver.findElement(By.cssSelector("#user_email")).sendKeys("879797@34v534.comrtybery");
         driver.findElement(By.cssSelector("#user_password")).sendKeys("#&^%*^");
@@ -24,15 +25,15 @@ public class Canvas {
         driver.findElement(By.cssSelector(".submit.btn.btn-primary")).click();
     }
 
-    public void getErrorMessage() {
+    private void getErrorMessage() {
         System.out.println(driver.findElement(By.cssSelector(".alert.alert-error.alert-block.error")).getText());
     }
 
-    public void handleAllReadyExistingUser(){
+    private void handleAllReadyExistingUser(){
         driver.findElement(By.cssSelector("small > a")).click();
     }
 
-    public void handleForgottenPassWord(){
+    private void handleForgottenPassWord(){
         driver.findElement(By.cssSelector("p > a")).click();
         if (!driver.findElement(By.cssSelector("h3")).getText().equals("Forgot Your Password")){
             System.out.println("Not the correct URL.");
@@ -42,8 +43,18 @@ public class Canvas {
         }
     }
 
-    public void closeBrowser(){
+    private void closeBrowser(){
         driver.quit();
+    }
+
+    public void testCanvas(WebDriver driver) throws Exception{
+        lunchSite(driver);
+        fillInvalidData();
+        getErrorMessage();
+        handleAllReadyExistingUser();
+        handleForgottenPassWord();
+        closeBrowser();
+
     }
 
 }

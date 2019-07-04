@@ -24,8 +24,6 @@ public class FlightConnections {
         driver.findElement(By.cssSelector("#from-input")).sendKeys(flightFrom);
         Thread.sleep(3000);
         driver.findElement(By.cssSelector(".ui-menu-item > .ui-menu-item-wrapper")).click();
-
-        //Vienna
     }
 
     private void insertToDestination(String flightTo) throws Exception {
