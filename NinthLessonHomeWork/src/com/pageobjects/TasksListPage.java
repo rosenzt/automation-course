@@ -10,15 +10,34 @@ public class TasksListPage extends BasePage {
     }
 
     private WebElement simpleTaskField = driver.findElement(By.cssSelector(""));
-private WebElement addTaskButton = driver.findElement(By.cssSelector(""));
+    protected WebElement addTaskButton = driver.findElement(By.cssSelector(""));
+    private WebElement searchField = driver.findElement(By.cssSelector(""));
+    private WebElement taskNumber = driver.findElement(By.cssSelector(""));
+    private WebElement newListButton = driver.findElement(By.cssSelector(""));
+    private WebElement newListNameField = driver.findElement(By.cssSelector(""));
+    private WebElement listTab = driver.findElement(By.cssSelector(""));
 
-    public void addSimpleTask(String taskName){
+    public void addSimpleTask(String taskName) {
         simpleTaskField.sendKeys(taskName);
-        simpleTaskField.click();
+        click(simpleTaskField);
     }
 
-    public void addAdvacedTask(){
-        addTaskButton.click();
-        
+    public void searchForTask(String searchedString) throws Exception {
+        searchField.sendKeys(searchedString);
+        Thread.sleep(2000);
+        taskNumber.getText();
+    }
+
+    public void createNewList(String newListName) {
+        click(newListButton);
+        newListNameField.sendKeys(newListName);
+    }
+
+    public void selectList(String listName) {
+        click(listTab);
+    }
+
+    public void verifyHowManyTasks() {
+        taskNumber.getText();
     }
 }
