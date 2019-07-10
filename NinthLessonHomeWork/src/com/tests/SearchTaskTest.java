@@ -12,8 +12,8 @@ public class SearchTaskTest {
         driver.manage().window().maximize();
         driver.get("http://www.mytinytodo.net/demo/");
 
-        TasksListPage tasksListPage  =new TasksListPage(driver);
-        tasksListPage.searchForTask("talstest");
+//        TasksListPage tasksListPage  =new TasksListPage(driver);
+//        tasksListPage.searchForTask("talstest");
     }
 
 }
