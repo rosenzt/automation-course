@@ -12,8 +12,8 @@ public class NewListTest {
         driver.manage().window().maximize();
         driver.get("http://www.mytinytodo.net/demo/");
 
-//        TasksListPage tasksListPage = new TasksListPage(driver);
-//        tasksListPage.createNewList("newTestList");
+        TasksListPage tasksListPage = new TasksListPage(driver);
+        tasksListPage.createNewList("newTestList");
 //        tasksListPage.selectList("newTestList");
 //        tasksListPage.addSimpleTask("1");
 //        tasksListPage.addSimpleTask("2");
