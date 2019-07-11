@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
 
-public class AdvancedTaskPage extends TasksListPage {
+public class AdvancedTaskPage extends BasePage {
 
     private WebElement priorityDropList = driver.findElement(By.cssSelector("[name='prio']"));
     private WebElement dueDateField = driver.findElement(By.cssSelector("#duedate"));
@@ -15,13 +15,14 @@ public class AdvancedTaskPage extends TasksListPage {
     private WebElement tagsField = driver.findElement(By.cssSelector("#edittags"));
     private WebElement saveButton = driver.findElement(By.cssSelector("[type=submit][value='Save']"));
 
+    TasksListPage tasksListPage = new TasksListPage(driver);
 
     public AdvancedTaskPage(WebDriver driver) {
         super(driver);
     }
 
     public void addAdvancedTask(String priority, String dueDate, String taskTitle, String note, String tags) {
-        click(addAdvancedTaskButton);
+        click(tasksListPage.addAdvancedTaskButton);
         click(priorityDropList);
         Select priorityDropdown = new Select(driver.findElement(By.cssSelector("[name='prio']")));
         priorityDropdown.selectByVisibleText(priority);

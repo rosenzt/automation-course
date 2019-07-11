@@ -14,6 +14,7 @@ public class TasksListPage extends BasePage {
     private WebElement simpleTaskField = driver.findElement(By.cssSelector("#task_placeholder"));
     private WebElement addSimpleTaskButton = driver.findElement(By.cssSelector("#newtask_submit"));
     private WebElement searchField = driver.findElement(By.cssSelector("#search"));
+    protected WebElement addAdvancedTaskButton = driver.findElement(By.cssSelector("#newtask_adv"));
     private WebElement taskNumber = driver.findElement(By.cssSelector("#total"));
     private WebElement newListButton = driver.findElement(By.cssSelector(".mtt-tabs-add-button"));
 
@@ -25,7 +26,7 @@ public class TasksListPage extends BasePage {
     public void searchForTask(String searchedString) throws Exception {
         searchField.sendKeys(searchedString);
         Thread.sleep(1000);
-        System.out.println(verifyHowManyTasks());
+        System.out.println(taskNumber.getText());
     }
 
     public void createNewList(String newListName) {
@@ -44,7 +45,11 @@ public class TasksListPage extends BasePage {
         }
     }
 
-    public String verifyHowManyTasks() {
-        return taskNumber.getText();
+    public String verifyHowManyTasks(String howManyTasks) {
+        if (taskNumber.getText().equals(howManyTasks)) {
+            return "Test passed";
+        } else {
+            return "Test failed";
+        }
     }
 }

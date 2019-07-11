@@ -18,13 +18,14 @@ public class NewListTest {
         String listName = Long.toString(timestamp.getTime());
         TasksListPage tasksListPage = new TasksListPage(driver);
         tasksListPage.createNewList(listName);
+        Thread.sleep(2000);
         tasksListPage.selectList(listName);
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         tasksListPage.addSimpleTask(Long.toString(timestamp.getTime()));
         Thread.sleep(1000);
         tasksListPage.addSimpleTask(Long.toString(timestamp.getTime()));
         Thread.sleep(1000);
-        System.out.println(tasksListPage.verifyHowManyTasks());
+        System.out.println(tasksListPage.verifyHowManyTasks("2"));
         driver.quit();
     }
 }
