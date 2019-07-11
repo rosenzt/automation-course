@@ -13,12 +13,9 @@ public class TasksListPage extends BasePage {
 
     private WebElement simpleTaskField = driver.findElement(By.cssSelector("#task_placeholder"));
     private WebElement addSimpleTaskButton = driver.findElement(By.cssSelector("#newtask_submit"));
-    protected WebElement addAdvancedTaskButton = driver.findElement(By.cssSelector("#newtask_adv"));
     private WebElement searchField = driver.findElement(By.cssSelector("#search"));
     private WebElement taskNumber = driver.findElement(By.cssSelector("#total"));
     private WebElement newListButton = driver.findElement(By.cssSelector(".mtt-tabs-add-button"));
-    //private WebElement newListNameField = driver.findElement(By.cssSelector(""));
-    //private WebElement listTab = driver.findElement(By.cssSelector(""));
 
     public void addSimpleTask(String taskName) {
         simpleTaskField.sendKeys(taskName);
@@ -27,18 +24,17 @@ public class TasksListPage extends BasePage {
 
     public void searchForTask(String searchedString) throws Exception {
         searchField.sendKeys(searchedString);
-        Thread.sleep(2000);
-        System.out.println(taskNumber.getText());
+        Thread.sleep(1000);
+        System.out.println(verifyHowManyTasks());
     }
 
     public void createNewList(String newListName) {
         click(newListButton);
         driver.switchTo().alert().sendKeys(newListName);
         driver.switchTo().alert().accept();
-        //newListNameField.sendKeys(newListName);
     }
 
-    public void selectList(String listName) {
+    public void selectList(String listName) throws Exception {
         List<WebElement> lists = driver.findElements(By.cssSelector("#lists .mtt-tab a span"));
         for (WebElement element : lists) {
             if (element.getText().equals(listName)) {
@@ -47,8 +43,8 @@ public class TasksListPage extends BasePage {
             }
         }
     }
-//
-//    public void verifyHowManyTasks() {
-//        taskNumber.getText();
-//    }
+
+    public String verifyHowManyTasks() {
+        return taskNumber.getText();
+    }
 }

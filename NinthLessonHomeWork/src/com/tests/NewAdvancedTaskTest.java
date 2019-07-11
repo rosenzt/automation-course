@@ -15,5 +15,6 @@ public class NewAdvancedTaskTest {
 
         AdvancedTaskPage advancedTaskPage = new AdvancedTaskPage(driver);
         advancedTaskPage.addAdvancedTask("+1", "7/31/19", "newAdvancedTask", "newAdvancedTask", "newAdvancedTask");
+        driver.quit();
     }
 }

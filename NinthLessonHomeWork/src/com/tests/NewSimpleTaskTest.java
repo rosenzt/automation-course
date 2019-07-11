@@ -14,5 +14,6 @@ public class NewSimpleTaskTest {
 
         TasksListPage tasksListPage = new TasksListPage(driver);
         tasksListPage.addSimpleTask("New simple task");
+        driver.quit();
     }
 }
