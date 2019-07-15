@@ -1,0 +1,398 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"387b6570-d6f7-4015-97a4-0848a8317e8f\" name=\"Default Changelist\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/src/com/pageobjects/AdvancedTaskPage.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/com/pageobjects/AdvancedTaskPage.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/com/pageobjects/BasePage.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/com/pageobjects/BasePage.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/com/pageobjects/TasksListPage.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/com/pageobjects/TasksListPage.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/com/tests/NewListTest.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/com/tests/NewListTest.java\" afterDir=\"false\" />\n    </list>\n    <ignored path=\"$PROJECT_DIR$/out/\" />\n    <option name=\"EXCLUDED_CONVERTED_TO_IGNORED\" value=\"true\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"DefaultGradleProjectSettings\">\n    <option name=\"isMigrated\" value=\"true\" />\n  </component>\n  <component name=\"FileEditorManager\">\n    <leaf SIDE_TABS_SIZE_LIMIT_KEY=\"300\">\n      <file pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/src/com/pageobjects/BasePage.java\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"195\">\n              <caret line=\"15\" column=\"19\" selection-start-line=\"15\" selection-start-column=\"19\" selection-end-line=\"15\" selection-end-column=\"19\" />\n              <folding>\n                <element signature=\"imports\" expanded=\"true\" />\n                <element signature=\"e#311#312#0\" expanded=\"true\" />\n                <element signature=\"e#345#346#0\" expanded=\"true\" />\n              </folding>\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/src/com/pageobjects/TasksListPage.java\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"380\">\n              <caret line=\"44\" column=\"9\" lean-forward=\"true\" selection-start-line=\"44\" selection-start-column=\"9\" selection-end-line=\"44\" selection-end-column=\"9\" />\n              <folding>\n                <element signature=\"imports\" expanded=\"true\" />\n                <element signature=\"e#248#249#0\" expanded=\"true\" />\n                <element signature=\"e#277#278#0\" expanded=\"true\" />\n              </folding>\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file pinned=\"false\" current-in-tab=\"true\">\n        <entry file=\"file://$PROJECT_DIR$/src/com/tests/NewListTest.java\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"300\">\n              <caret line=\"24\" column=\"27\" lean-forward=\"true\" selection-start-line=\"24\" selection-start-column=\"27\" selection-end-line=\"24\" selection-end-column=\"27\" />\n            </state>\n          </provider>\n        </entry>\n      </file>\n    </leaf>\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\n  </component>\n  <component name=\"IdeDocumentHistory\">\n    <option name=\"CHANGED_PATHS\">\n      <list>\n        <option value=\"$PROJECT_DIR$/src/com/pageobjects/NewTask.java\" />\n        <option value=\"$PROJECT_DIR$/src/com/pageobjects/TasksPage.java\" />\n        <option value=\"$PROJECT_DIR$/src/com/pageobjects/NewAdvancedTask.java\" />\n        <option value=\"$PROJECT_DIR$/src/com/tests/NewSimpleTaskTest.java\" />\n        <option value=\"$PROJECT_DIR$/src/com/tests/SearchTaskTest.java\" />\n        <option value=\"$PROJECT_DIR$/src/com/tests/NewAdvancedTaskTest.java\" />\n        <option value=\"$PROJECT_DIR$/src/com/pageobjects/BasePage.java\" />\n        <option value=\"$PROJECT_DIR$/src/com/pageobjects/AdvancedTaskPage.java\" />\n        <option value=\"$PROJECT_DIR$/src/com/pageobjects/TasksListPage.java\" />\n        <option value=\"$PROJECT_DIR$/src/com/tests/NewListTest.java\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"ProjectFrameBounds\">\n    <option name=\"x\" value=\"1920\" />\n    <option name=\"y\" value=\"23\" />\n    <option name=\"width\" value=\"1920\" />\n    <option name=\"height\" value=\"1057\" />\n  </component>\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectView\">\n    <navigator proportions=\"\" version=\"1\">\n      <foldersAlwaysOnTop value=\"true\" />\n    </navigator>\n    <panes>\n      <pane id=\"PackagesPane\" />\n      <pane id=\"Scope\" />\n      <pane id=\"ProjectPane\">\n        <subPane>\n          <expand>\n            <path>\n              <item name=\"NinthLessonHomeWork\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"NinthLessonHomeWork\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"NinthLessonHomeWork\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"NinthLessonHomeWork\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"src\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"NinthLessonHomeWork\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"NinthLessonHomeWork\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"src\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"com\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"NinthLessonHomeWork\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"NinthLessonHomeWork\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"src\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"com\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"pageobjects\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"NinthLessonHomeWork\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"NinthLessonHomeWork\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"src\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"com\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"tests\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n          </expand>\n          <select />\n        </subPane>\n      </pane>\n    </panes>\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\n    <property name=\"com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp\" value=\"1562791055782\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\n    <property name=\"project.structure.last.edited\" value=\"Modules\" />\n    <property name=\"project.structure.proportion\" value=\"0.0\" />\n    <property name=\"project.structure.side.proportion\" value=\"0.0\" />\n  </component>\n  <component name=\"RunDashboard\">\n    <option name=\"ruleStates\">\n      <list>\n        <RuleState>\n          <option name=\"name\" value=\"ConfigurationTypeDashboardGroupingRule\" />\n        </RuleState>\n        <RuleState>\n          <option name=\"name\" value=\"StatusDashboardGroupingRule\" />\n        </RuleState>\n      </list>\n    </option>\n  </component>\n  <component name=\"RunManager\" selected=\"Application.SearchTaskTest\">\n    <configuration name=\"NewAdvancedTaskTest\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.tests.NewAdvancedTaskTest\" />\n      <module name=\"NinthLessonHomeWork\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"com.tests.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"NewListTest\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.tests.NewListTest\" />\n      <module name=\"NinthLessonHomeWork\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"com.tests.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"NewSimpleTaskTest\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.tests.NewSimpleTaskTest\" />\n      <module name=\"NinthLessonHomeWork\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"com.tests.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"SearchTaskTest\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.tests.SearchTaskTest\" />\n      <module name=\"NinthLessonHomeWork\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"com.tests.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.SearchTaskTest\" />\n        <item itemvalue=\"Application.NewSimpleTaskTest\" />\n        <item itemvalue=\"Application.NewAdvancedTaskTest\" />\n        <item itemvalue=\"Application.NewListTest\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SvnConfiguration\">\n    <configuration />\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"387b6570-d6f7-4015-97a4-0848a8317e8f\" name=\"Default Changelist\" comment=\"\" />\n      <created>1562603229806</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1562603229806</updated>\n    </task>\n    <servers />\n  </component>\n  <component name=\"ToolWindowManager\">\n    <frame x=\"1920\" y=\"23\" width=\"1920\" height=\"1057\" extended-state=\"0\" />\n    <editor active=\"true\" />\n    <layout>\n      <window_info content_ui=\"combo\" id=\"Project\" order=\"0\" visible=\"true\" weight=\"0.16080937\" />\n      <window_info id=\"Structure\" order=\"1\" side_tool=\"true\" weight=\"0.25\" />\n      <window_info id=\"Image Layers\" order=\"2\" />\n      <window_info id=\"Designer\" order=\"3\" />\n      <window_info id=\"UI Designer\" order=\"4\" />\n      <window_info id=\"Capture Tool\" order=\"5\" />\n      <window_info id=\"Favorites\" order=\"6\" side_tool=\"true\" />\n      <window_info anchor=\"bottom\" id=\"Message\" order=\"0\" />\n      <window_info anchor=\"bottom\" id=\"Find\" order=\"1\" />\n      <window_info active=\"true\" anchor=\"bottom\" id=\"Run\" order=\"2\" visible=\"true\" weight=\"0.3284974\" />\n      <window_info anchor=\"bottom\" id=\"Debug\" order=\"3\" weight=\"0.4\" />\n      <window_info anchor=\"bottom\" id=\"Cvs\" order=\"4\" weight=\"0.25\" />\n      <window_info anchor=\"bottom\" id=\"Inspection\" order=\"5\" weight=\"0.4\" />\n      <window_info anchor=\"bottom\" id=\"TODO\" order=\"6\" />\n      <window_info anchor=\"bottom\" id=\"Terminal\" order=\"7\" />\n      <window_info anchor=\"bottom\" id=\"Event Log\" order=\"8\" side_tool=\"true\" />\n      <window_info anchor=\"bottom\" id=\"Version Control\" order=\"9\" />\n      <window_info anchor=\"bottom\" id=\"Messages\" order=\"10\" weight=\"0.32953367\" />\n      <window_info anchor=\"right\" id=\"Commander\" internal_type=\"SLIDING\" order=\"0\" type=\"SLIDING\" weight=\"0.4\" />\n      <window_info anchor=\"right\" id=\"Ant Build\" order=\"1\" weight=\"0.25\" />\n      <window_info anchor=\"right\" content_ui=\"combo\" id=\"Hierarchy\" order=\"2\" weight=\"0.25\" />\n      <window_info anchor=\"right\" id=\"Palette\" order=\"3\" />\n      <window_info anchor=\"right\" id=\"Maven\" order=\"4\" />\n      <window_info anchor=\"right\" id=\"Theme Preview\" order=\"5\" />\n      <window_info anchor=\"right\" id=\"Capture Analysis\" order=\"6\" />\n      <window_info anchor=\"right\" id=\"Palette&#9;\" order=\"7\" />\n    </layout>\n    <layout-to-restore>\n      <window_info active=\"true\" content_ui=\"combo\" id=\"Project\" order=\"0\" visible=\"true\" weight=\"0.16080937\" />\n      <window_info id=\"Structure\" order=\"1\" side_tool=\"true\" weight=\"0.25\" />\n      <window_info id=\"Image Layers\" order=\"2\" />\n      <window_info id=\"Designer\" order=\"3\" />\n      <window_info id=\"UI Designer\" order=\"4\" />\n      <window_info id=\"Capture Tool\" order=\"5\" />\n      <window_info id=\"Favorites\" order=\"6\" side_tool=\"true\" />\n      <window_info anchor=\"bottom\" id=\"Message\" order=\"0\" />\n      <window_info anchor=\"bottom\" id=\"Find\" order=\"1\" />\n      <window_info anchor=\"bottom\" id=\"Run\" order=\"2\" visible=\"true\" weight=\"0.3284974\" />\n      <window_info anchor=\"bottom\" id=\"Debug\" order=\"3\" weight=\"0.4\" />\n      <window_info anchor=\"bottom\" id=\"Cvs\" order=\"4\" weight=\"0.25\" />\n      <window_info anchor=\"bottom\" id=\"Inspection\" order=\"5\" weight=\"0.4\" />\n      <window_info anchor=\"bottom\" id=\"TODO\" order=\"6\" />\n      <window_info anchor=\"bottom\" id=\"Terminal\" order=\"7\" />\n      <window_info anchor=\"bottom\" id=\"Event Log\" order=\"8\" side_tool=\"true\" />\n      <window_info anchor=\"bottom\" id=\"Version Control\" order=\"9\" />\n      <window_info anchor=\"bottom\" id=\"Messages\" order=\"10\" weight=\"0.32953367\" />\n      <window_info anchor=\"right\" id=\"Commander\" internal_type=\"SLIDING\" order=\"0\" type=\"SLIDING\" weight=\"0.4\" />\n      <window_info anchor=\"right\" id=\"Ant Build\" order=\"1\" weight=\"0.25\" />\n      <window_info anchor=\"right\" content_ui=\"combo\" id=\"Hierarchy\" order=\"2\" weight=\"0.25\" />\n      <window_info anchor=\"right\" id=\"Palette\" order=\"3\" />\n      <window_info anchor=\"right\" id=\"Maven\" order=\"4\" />\n      <window_info anchor=\"right\" id=\"Theme Preview\" order=\"5\" />\n      <window_info anchor=\"right\" id=\"Capture Analysis\" order=\"6\" />\n      <window_info anchor=\"right\" id=\"Palette&#9;\" order=\"7\" />\n    </layout-to-restore>\n  </component>\n  <component name=\"editorHistoryManager\">\n    <entry file=\"file://$PROJECT_DIR$/src/com/pageobjects/NewAdvancedTask.java\" />\n    <entry file=\"file://$PROJECT_DIR$/src/com/tests/NewSimpleTaskTest.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"210\">\n          <caret line=\"14\" column=\"42\" selection-start-line=\"14\" selection-start-column=\"42\" selection-end-line=\"14\" selection-end-column=\"42\" />\n          <folding>\n            <element signature=\"imports\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/com/tests/SearchTaskTest.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"255\">\n          <caret line=\"21\" column=\"26\" lean-forward=\"true\" selection-start-line=\"21\" selection-start-column=\"26\" selection-end-line=\"21\" selection-end-column=\"26\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/com/pageobjects/TasksListPage.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"380\">\n          <caret line=\"44\" column=\"9\" lean-forward=\"true\" selection-start-line=\"44\" selection-start-column=\"9\" selection-end-line=\"44\" selection-end-column=\"9\" />\n          <folding>\n            <element signature=\"imports\" expanded=\"true\" />\n            <element signature=\"e#248#249#0\" expanded=\"true\" />\n            <element signature=\"e#277#278#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/com/tests/NewAdvancedTaskTest.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"60\">\n          <caret line=\"7\" column=\"13\" selection-start-line=\"7\" selection-start-column=\"13\" selection-end-line=\"7\" selection-end-column=\"13\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/com/pageobjects/AdvancedTaskPage.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"300\">\n          <caret line=\"22\" lean-forward=\"true\" selection-start-line=\"22\" selection-end-line=\"22\" />\n          <folding>\n            <element signature=\"imports\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/com/pageobjects/BasePage.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"195\">\n          <caret line=\"15\" column=\"19\" selection-start-line=\"15\" selection-start-column=\"19\" selection-end-line=\"15\" selection-end-column=\"19\" />\n          <folding>\n            <element signature=\"imports\" expanded=\"true\" />\n            <element signature=\"e#311#312#0\" expanded=\"true\" />\n            <element signature=\"e#345#346#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/com/tests/NewListTest.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"300\">\n          <caret line=\"24\" column=\"27\" lean-forward=\"true\" selection-start-line=\"24\" selection-start-column=\"27\" selection-end-line=\"24\" selection-end-column=\"27\" />\n        </state>\n      </provider>\n    </entry>\n  </component>\n  <component name=\"masterDetails\">\n    <states>\n      <state key=\"ArtifactsStructureConfigurable.UI\">\n        <settings>\n          <artifact-editor />\n          <splitter-proportions>\n            <option name=\"proportions\">\n              <list>\n                <option value=\"0.2\" />\n              </list>\n            </option>\n          </splitter-proportions>\n        </settings>\n      </state>\n      <state key=\"FacetStructureConfigurable.UI\">\n        <settings>\n          <last-edited>No facets are configured</last-edited>\n          <splitter-proportions>\n            <option name=\"proportions\">\n              <list>\n                <option value=\"0.2\" />\n              </list>\n            </option>\n          </splitter-proportions>\n        </settings>\n      </state>\n      <state key=\"GlobalLibrariesConfigurable.UI\">\n        <settings>\n          <splitter-proportions>\n            <option name=\"proportions\">\n              <list>\n                <option value=\"0.2\" />\n              </list>\n            </option>\n          </splitter-proportions>\n        </settings>\n      </state>\n      <state key=\"JdkListConfigurable.UI\">\n        <settings>\n          <last-edited>1.8</last-edited>\n          <splitter-proportions>\n            <option name=\"proportions\">\n              <list>\n                <option value=\"0.2\" />\n              </list>\n            </option>\n          </splitter-proportions>\n        </settings>\n      </state>\n      <state key=\"ModuleStructureConfigurable.UI\">\n        <settings>\n          <last-edited>NinthLessonHomeWork</last-edited>\n          <splitter-proportions>\n            <option name=\"proportions\">\n              <list>\n                <option value=\"0.2\" />\n              </list>\n            </option>\n          </splitter-proportions>\n        </settings>\n      </state>\n      <state key=\"ProjectJDKs.UI\">\n        <settings>\n          <last-edited>1.8</last-edited>\n          <splitter-proportions>\n            <option name=\"proportions\">\n              <list>\n                <option value=\"0.2\" />\n              </list>\n            </option>\n          </splitter-proportions>\n        </settings>\n      </state>\n      <state key=\"ProjectLibrariesConfigurable.UI\">\n        <settings>\n          <splitter-proportions>\n            <option name=\"proportions\">\n              <list>\n                <option value=\"0.2\" />\n              </list>\n            </option>\n          </splitter-proportions>\n        </settings>\n      </state>\n    </states>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 3d045ddd7519175cae174965472f5aa5d4b14ce8)
++++ .idea/workspace.xml	(date 1563170541302)
+@@ -2,10 +2,11 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="387b6570-d6f7-4015-97a4-0848a8317e8f" name="Default Changelist" comment="">
+-      <change beforePath="$PROJECT_DIR$/src/com/pageobjects/AdvancedTaskPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pageobjects/AdvancedTaskPage.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/com/pageobjects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pageobjects/BasePage.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/com/pageobjects/TasksListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pageobjects/TasksListPage.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/com/tests/NewListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tests/NewListTest.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_testng_testng_6_14_3.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/NinthLessonHomeWork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NinthLessonHomeWork.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/NinthLessonHomeWork/com/tests/SearchTaskTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NinthLessonHomeWork/com/tests/SearchTaskTest.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/com/tests/SearchTaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tests/SearchTaskTest.java" afterDir="false" />
+     </list>
+     <ignored path="$PROJECT_DIR$/out/" />
+     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+@@ -22,7 +23,7 @@
+       <file pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/src/com/pageobjects/BasePage.java">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="195">
++            <state relative-caret-position="150">
+               <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+               <folding>
+                 <element signature="imports" expanded="true" />
+@@ -36,8 +37,8 @@
+       <file pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/src/com/pageobjects/TasksListPage.java">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="380">
+-              <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
++            <state relative-caret-position="570">
++              <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+               <folding>
+                 <element signature="imports" expanded="true" />
+                 <element signature="e#248#249#0" expanded="true" />
+@@ -47,11 +48,35 @@
+           </provider>
+         </entry>
+       </file>
+-      <file pinned="false" current-in-tab="true">
++      <file pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/src/com/tests/NewListTest.java">
+           <provider selected="true" editor-type-id="text-editor">
+             <state relative-caret-position="300">
+-              <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
++              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/src/com/tests/NewSimpleTaskTest.java">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="180">
++              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
++              <folding>
++                <element signature="imports" expanded="true" />
++              </folding>
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file pinned="false" current-in-tab="true">
++        <entry file="file://$PROJECT_DIR$/src/com/tests/SearchTaskTest.java">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="180">
++              <caret line="12" selection-start-line="12" selection-end-line="12" />
++              <folding>
++                <element signature="imports" expanded="true" />
++              </folding>
+             </state>
+           </provider>
+         </entry>
+@@ -75,12 +100,12 @@
+         <option value="$PROJECT_DIR$/src/com/pageobjects/TasksPage.java" />
+         <option value="$PROJECT_DIR$/src/com/pageobjects/NewAdvancedTask.java" />
+         <option value="$PROJECT_DIR$/src/com/tests/NewSimpleTaskTest.java" />
+-        <option value="$PROJECT_DIR$/src/com/tests/SearchTaskTest.java" />
+         <option value="$PROJECT_DIR$/src/com/tests/NewAdvancedTaskTest.java" />
+         <option value="$PROJECT_DIR$/src/com/pageobjects/BasePage.java" />
+         <option value="$PROJECT_DIR$/src/com/pageobjects/AdvancedTaskPage.java" />
+         <option value="$PROJECT_DIR$/src/com/pageobjects/TasksListPage.java" />
+         <option value="$PROJECT_DIR$/src/com/tests/NewListTest.java" />
++        <option value="$PROJECT_DIR$/src/com/tests/SearchTaskTest.java" />
+       </list>
+     </option>
+   </component>
+@@ -97,7 +122,6 @@
+     </navigator>
+     <panes>
+       <pane id="PackagesPane" />
+-      <pane id="Scope" />
+       <pane id="ProjectPane">
+         <subPane>
+           <expand>
+@@ -134,15 +158,21 @@
+           <select />
+         </subPane>
+       </pane>
++      <pane id="Scope" />
+     </panes>
+   </component>
+   <component name="PropertiesComponent">
++    <property name="Downloaded.Files.Path.Enabled" value="false" />
++    <property name="Repository.Attach.Annotations" value="false" />
++    <property name="Repository.Attach.JavaDocs" value="false" />
++    <property name="Repository.Attach.Sources" value="false" />
+     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562791055782" />
+     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+-    <property name="project.structure.last.edited" value="Modules" />
+-    <property name="project.structure.proportion" value="0.0" />
+-    <property name="project.structure.side.proportion" value="0.0" />
++    <property name="project.structure.last.edited" value="Libraries" />
++    <property name="project.structure.proportion" value="0.15" />
++    <property name="project.structure.side.proportion" value="0.2" />
++    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+   </component>
+   <component name="RunDashboard">
+     <option name="ruleStates">
+@@ -156,7 +186,7 @@
+       </list>
+     </option>
+   </component>
+-  <component name="RunManager" selected="Application.SearchTaskTest">
++  <component name="RunManager" selected="TestNG.SearchTaskTest">
+     <configuration name="NewAdvancedTaskTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="com.tests.NewAdvancedTaskTest" />
+       <module name="NinthLessonHomeWork" />
+@@ -209,8 +239,55 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
++    <configuration name="SearchTaskTest" type="TestNG" temporary="true" nameIsGenerated="true">
++      <module name="NinthLessonHomeWork" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.tests.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="SUITE_NAME" value="" />
++      <option name="PACKAGE_NAME" value="com.tests" />
++      <option name="MAIN_CLASS_NAME" value="com.tests.SearchTaskTest" />
++      <option name="METHOD_NAME" value="" />
++      <option name="GROUP_NAME" value="" />
++      <option name="TEST_OBJECT" value="CLASS" />
++      <option name="PARAMETERS" value="" />
++      <option name="OUTPUT_DIRECTORY" value="" />
++      <option name="PROPERTIES_FILE" value="" />
++      <properties />
++      <listeners />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration default="true" type="TestNG">
++      <option name="SUITE_NAME" value="" />
++      <option name="PACKAGE_NAME" value="" />
++      <option name="MAIN_CLASS_NAME" value="" />
++      <option name="METHOD_NAME" value="" />
++      <option name="GROUP_NAME" value="" />
++      <option name="TEST_OBJECT" value="PACKAGE" />
++      <option name="PARAMETERS" value="" />
++      <option name="OUTPUT_DIRECTORY" value="" />
++      <option name="PROPERTIES_FILE" value="" />
++      <properties />
++      <listeners />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <list>
++      <item itemvalue="Application.NewAdvancedTaskTest" />
++      <item itemvalue="Application.NewListTest" />
++      <item itemvalue="Application.NewSimpleTaskTest" />
++      <item itemvalue="Application.SearchTaskTest" />
++      <item itemvalue="TestNG.SearchTaskTest" />
++    </list>
+     <recent_temporary>
+       <list>
++        <item itemvalue="TestNG.SearchTaskTest" />
+         <item itemvalue="Application.SearchTaskTest" />
+         <item itemvalue="Application.NewSimpleTaskTest" />
+         <item itemvalue="Application.NewAdvancedTaskTest" />
+@@ -233,9 +310,8 @@
+   </component>
+   <component name="ToolWindowManager">
+     <frame x="1920" y="23" width="1920" height="1057" extended-state="0" />
+-    <editor active="true" />
+     <layout>
+-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16080937" />
++      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16400427" />
+       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+       <window_info id="Image Layers" order="2" />
+       <window_info id="Designer" order="3" />
+@@ -293,27 +369,39 @@
+   </component>
+   <component name="editorHistoryManager">
+     <entry file="file://$PROJECT_DIR$/src/com/pageobjects/NewAdvancedTask.java" />
+-    <entry file="file://$PROJECT_DIR$/src/com/tests/NewSimpleTaskTest.java">
++    <entry file="file://$PROJECT_DIR$/src/com/tests/NewAdvancedTaskTest.java">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="60">
++          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/com/pageobjects/AdvancedTaskPage.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="210">
+-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
++        <state relative-caret-position="300">
++          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+           <folding>
+             <element signature="imports" expanded="true" />
+           </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/com/tests/SearchTaskTest.java">
++    <entry file="file://$PROJECT_DIR$/src/com/pageobjects/BasePage.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="255">
+-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
++        <state relative-caret-position="150">
++          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
++          <folding>
++            <element signature="imports" expanded="true" />
++            <element signature="e#311#312#0" expanded="true" />
++            <element signature="e#345#346#0" expanded="true" />
++          </folding>
+         </state>
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/src/com/pageobjects/TasksListPage.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="380">
+-          <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
++        <state relative-caret-position="570">
++          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+           <folding>
+             <element signature="imports" expanded="true" />
+             <element signature="e#248#249#0" expanded="true" />
+@@ -322,42 +410,33 @@
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/com/tests/NewAdvancedTaskTest.java">
++    <entry file="file://$PROJECT_DIR$/src/com/tests/NewListTest.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="60">
+-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
++        <state relative-caret-position="300">
++          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/com/pageobjects/AdvancedTaskPage.java">
++    <entry file="file://$PROJECT_DIR$/src/com/tests/NewSimpleTaskTest.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="300">
+-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
++        <state relative-caret-position="180">
++          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+           <folding>
+             <element signature="imports" expanded="true" />
+           </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/com/pageobjects/BasePage.java">
++    <entry file="file://$PROJECT_DIR$/src/com/tests/SearchTaskTest.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="195">
+-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
++        <state relative-caret-position="180">
++          <caret line="12" selection-start-line="12" selection-end-line="12" />
+           <folding>
+             <element signature="imports" expanded="true" />
+-            <element signature="e#311#312#0" expanded="true" />
+-            <element signature="e#345#346#0" expanded="true" />
+           </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/com/tests/NewListTest.java">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="300">
+-          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+-        </state>
+-      </provider>
+-    </entry>
+   </component>
+   <component name="masterDetails">
+     <states>
+@@ -434,6 +513,7 @@
+       </state>
+       <state key="ProjectLibrariesConfigurable.UI">
+         <settings>
++          <last-edited>org.testng:testng:6.14.3</last-edited>
+           <splitter-proportions>
+             <option name="proportions">
+               <list>
+Index: .idea/libraries/org_testng_testng_6_14_3.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/org_testng_testng_6_14_3.xml	(date 1563102761520)
++++ .idea/libraries/org_testng_testng_6_14_3.xml	(date 1563102761520)
+@@ -0,0 +1,12 @@
++<component name="libraryTable">
++  <library name="org.testng:testng:6.14.3" type="repository">
++    <properties maven-id="org.testng:testng:6.14.3" />
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/" />
++      <root url="jar://$MAVEN_REPOSITORY$/com/beust/jcommander/1.72/jcommander-1.72.jar!/" />
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: NinthLessonHomeWork.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<module type=\"JAVA_MODULE\" version=\"4\">\n  <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">\n    <exclude-output />\n    <content url=\"file://$MODULE_DIR$\">\n      <sourceFolder url=\"file://$MODULE_DIR$/src\" isTestSource=\"false\" />\n    </content>\n    <orderEntry type=\"inheritedJdk\" />\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\n    <orderEntry type=\"module-library\">\n      <library>\n        <CLASSES>\n          <root url=\"jar://$USER_HOME$/automation/libs/client-combined-3.141.59.jar!/\" />\n          <root url=\"file://$USER_HOME$/automation/libs/libs\" />\n        </CLASSES>\n        <JAVADOC />\n        <SOURCES>\n          <root url=\"jar://$USER_HOME$/automation/libs/client-combined-3.141.59-sources.jar!/\" />\n        </SOURCES>\n        <jarDirectory url=\"file://$USER_HOME$/automation/libs/libs\" recursive=\"false\" />\n      </library>\n    </orderEntry>\n  </component>\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- NinthLessonHomeWork.iml	(revision 3d045ddd7519175cae174965472f5aa5d4b14ce8)
++++ NinthLessonHomeWork.iml	(date 1563102761458)
+@@ -20,5 +20,6 @@
+         <jarDirectory url="file://$USER_HOME$/automation/libs/libs" recursive="false" />
+       </library>
+     </orderEntry>
++    <orderEntry type="library" name="org.testng:testng:6.14.3" level="project" />
+   </component>
+ </module>
+\ No newline at end of file
+Index: src/com/tests/SearchTaskTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.tests;\n\nimport com.pageobjects.TasksListPage;\nimport org.openqa.selenium.WebDriver;\nimport org.openqa.selenium.chrome.ChromeDriver;\n\nimport java.sql.Timestamp;\n\npublic class SearchTaskTest {\n    public static void main(String[] args) throws Exception {\n        System.setProperty(\"webdriver.chrome.driver\", \"/Users/tal/automation/drivers/chromedriver\");\n        WebDriver driver = new ChromeDriver();\n\n        driver.manage().window().maximize();\n        driver.get(\"http://www.mytinytodo.net/demo/\");\n\n        Timestamp timestamp = new Timestamp(System.currentTimeMillis());\n        String taskName = Long.toString(timestamp.getTime());\n\n        TasksListPage tasksListPage = new TasksListPage(driver);\n        tasksListPage.addSimpleTask(taskName);\n        tasksListPage.searchForTask(taskName);\n        driver.quit();\n    }\n\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/com/tests/SearchTaskTest.java	(revision 3d045ddd7519175cae174965472f5aa5d4b14ce8)
++++ src/com/tests/SearchTaskTest.java	(date 1563170492414)
+@@ -3,18 +3,26 @@
+ import com.pageobjects.TasksListPage;
+ import org.openqa.selenium.WebDriver;
+ import org.openqa.selenium.chrome.ChromeDriver;
++import org.testng.annotations.BeforeClass;
++import org.testng.annotations.Test;
+ 
+ import java.sql.Timestamp;
+ 
+ public class SearchTaskTest {
+-    public static void main(String[] args) throws Exception {
++    WebDriver driver;
++
++    @BeforeClass
++    public void lunchSite(){
+         System.setProperty("webdriver.chrome.driver", "/Users/tal/automation/drivers/chromedriver");
+-        WebDriver driver = new ChromeDriver();
++        driver = new ChromeDriver();
+ 
+         driver.manage().window().maximize();
+         driver.get("http://www.mytinytodo.net/demo/");
++    }
+ 
+-        Timestamp timestamp = new Timestamp(System.currentTimeMillis());
++    @Test
++    public void search() throws Exception {
++       Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+         String taskName = Long.toString(timestamp.getTime());
+ 
+         TasksListPage tasksListPage = new TasksListPage(driver);
+@@ -23,4 +31,6 @@
+         driver.quit();
+     }
+ 
++
++
+ }

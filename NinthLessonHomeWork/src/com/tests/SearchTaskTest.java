@@ -3,18 +3,26 @@ package com.tests;
 import com.pageobjects.TasksListPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
 import java.sql.Timestamp;
 
 public class SearchTaskTest {
-    public static void main(String[] args) throws Exception {
+    WebDriver driver;
+
+    @BeforeClass
+    public void lunchSite(){
         System.setProperty("webdriver.chrome.driver", "/Users/tal/automation/drivers/chromedriver");
-        WebDriver driver = new ChromeDriver();
+        driver = new ChromeDriver();
 
         driver.manage().window().maximize();
         driver.get("http://www.mytinytodo.net/demo/");
+    }
 
-        Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+    @Test
+    public void search() throws Exception {
+       Timestamp timestamp = new Timestamp(System.currentTimeMillis());
         String taskName = Long.toString(timestamp.getTime());
 
         TasksListPage tasksListPage = new TasksListPage(driver);
@@ -22,5 +30,7 @@ public class SearchTaskTest {
         tasksListPage.searchForTask(taskName);
         driver.quit();
     }
+
+
 
 }
