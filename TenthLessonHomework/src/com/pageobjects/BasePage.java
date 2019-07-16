@@ -11,7 +11,25 @@ public class BasePage {
         this.driver = driver;
     }
 
-    public void click(WebElement webElement) {
+    void fillText(WebElement element, String text){
+        element.clear();
+        element.sendKeys(text);
+    }
+
+    String getText(WebElement element){
+        return element.getText();
+    }
+
+    void click(WebElement webElement) {
         webElement.click();
     }
+
+    void sleep(long millis){
+        try{
+            Thread.sleep(millis);
+        }catch (Exception e){
+            System.out.println(e);
+        }
+    }
+
 }

@@ -3,6 +3,8 @@ package com.pageobjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.FindBys;
 
 import java.util.List;
 
@@ -11,22 +13,33 @@ public class TasksListPage extends BasePage {
         super(driver);
     }
 
-    private WebElement simpleTaskField = driver.findElement(By.cssSelector("#task_placeholder"));
-    private WebElement addSimpleTaskButton = driver.findElement(By.cssSelector("#newtask_submit"));
-    private WebElement searchField = driver.findElement(By.cssSelector("#search"));
-    protected WebElement addAdvancedTaskButton = driver.findElement(By.cssSelector("#newtask_adv"));
-    private WebElement taskNumber = driver.findElement(By.cssSelector("#total"));
-    private WebElement newListButton = driver.findElement(By.cssSelector(".mtt-tabs-add-button"));
+    @FindBy(css = "#task_placeholder")
+    private WebElement simpleTaskField;
+
+    @FindBy(css = "#newtask_submit")
+    private WebElement addSimpleTaskButton;
+
+    @FindBy(css = "#search")
+    private WebElement searchField;
+
+    @FindBy(css = "#newtask_adv")
+    protected WebElement addAdvancedTaskButton;
+
+    @FindBy(css = "#total")
+    private WebElement taskNumber;
+
+    @FindBy(css = ".mtt-tabs-add-button")
+    private WebElement newListButton;
 
     public void addSimpleTask(String taskName) {
-        simpleTaskField.sendKeys(taskName);
+        fillText(simpleTaskField, taskName);
         click(addSimpleTaskButton);
     }
 
     public void searchForTask(String searchedString) throws Exception {
-        searchField.sendKeys(searchedString);
-        Thread.sleep(1000);
-        System.out.println(taskNumber.getText());
+        fillText(searchField, searchedString);
+        sleep(1000);
+        getText(taskNumber);
     }
 
     public void createNewList(String newListName) {
@@ -46,7 +59,7 @@ public class TasksListPage extends BasePage {
     }
 
     public String verifyHowManyTasks(String howManyTasks) {
-        if (taskNumber.getText().equals(howManyTasks)) {
+        if (getText(taskNumber).equals(howManyTasks)) {
             return "Test passed";
         } else {
             return "Test failed";
