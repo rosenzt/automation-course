@@ -32,7 +32,7 @@ public class AdvancedTaskPage extends BasePage {
     }
 
     public void addAdvancedTask(String priority, String dueDate, String taskTitle, String note, String tags) {
-        click(tasksListPage.addAdvancedTaskButton);
+        tasksListPage.openAdvancedTask();
         click(priorityDropList);
         Select priorityDropdown = new Select(priorityDropList);
         priorityDropdown.selectByVisibleText(priority);

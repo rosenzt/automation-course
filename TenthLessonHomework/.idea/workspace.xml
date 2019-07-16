@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1d6ef8eb-ae85-4fa3-9380-a0d9862aeffc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../SeleniumC24L4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumC24L4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/pageobjects/AdvancedTaskPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pageobjects/AdvancedTaskPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pageobjects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pageobjects/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/pageobjects/TasksListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pageobjects/TasksListPage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/pageobjects/AdvancedTaskPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+            <state relative-caret-position="285">
+              <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#950#951#0" expanded="true" />
@@ -37,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/pageobjects/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+            <state relative-caret-position="450">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="e#393#394#0" expanded="true" />
                 <element signature="e#415#416#0" expanded="true" />
@@ -50,8 +48,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/pageobjects/TasksListPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="465">
+              <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1170#1171#0" expanded="true" />
+                <element signature="e#1193#1194#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -117,10 +120,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="2013" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1920" />
     <option name="y" value="23" />
-    <option name="width" value="1873" />
+    <option name="width" value="1920" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -218,10 +221,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2013" y="23" width="1873" height="1057" extended-state="0" />
+    <frame x="1920" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25505188" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24866879" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -249,9 +252,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/tests/NewAdvancedTaskTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tests/NewListTest.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -274,8 +274,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pageobjects/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+        <state relative-caret-position="450">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="e#393#394#0" expanded="true" />
             <element signature="e#415#416#0" expanded="true" />
@@ -285,8 +285,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pageobjects/AdvancedTaskPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        <state relative-caret-position="285">
+          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#950#951#0" expanded="true" />
@@ -295,10 +295,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tests/NewAdvancedTaskTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/automation/libs/client-combined-3.141.59-sources.jar!/org/openqa/selenium/support/FindAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="50" column="45" lean-forward="true" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pageobjects/TasksListPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="465">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1170#1171#0" expanded="true" />
+            <element signature="e#1193#1194#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -3,8 +3,10 @@ package com.pageobjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.FindBys;
+import org.openqa.selenium.support.How;
+
 
 import java.util.List;
 
@@ -23,7 +25,7 @@ public class TasksListPage extends BasePage {
     private WebElement searchField;
 
     @FindBy(css = "#newtask_adv")
-    protected WebElement addAdvancedTaskButton;
+    private WebElement addAdvancedTaskButton;
 
     @FindBy(css = "#total")
     private WebElement taskNumber;
@@ -42,6 +44,9 @@ public class TasksListPage extends BasePage {
         getText(taskNumber);
     }
 
+    public void openAdvancedTask(){
+        click(addAdvancedTaskButton);
+    }
     public void createNewList(String newListName) {
         click(newListButton);
         driver.switchTo().alert().sendKeys(newListName);
