@@ -3,11 +3,11 @@ package com.pageobjects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class BasePage {
-    public WebDriver driver;
+class BasePage {
+    WebDriver driver;
 
 
-    public BasePage(WebDriver driver) {
+    BasePage(WebDriver driver) {
         this.driver = driver;
     }
 
@@ -20,7 +20,7 @@ public class BasePage {
         return element.getText();
     }
 
-    void click(WebElement webElement) {
+    public void click(WebElement webElement) {
         webElement.click();
     }
 
