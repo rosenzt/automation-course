@@ -36,6 +36,10 @@ public class TaskListPage extends BasePage{
         return getText(numberOfTasks);
     }
 
+    public void clickAdvancedTaskButton(){
+        click(btnAdvancedTask);
+    }
+
 
 
 }
