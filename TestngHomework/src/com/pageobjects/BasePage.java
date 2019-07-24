@@ -2,13 +2,14 @@ package com.pageobjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.PageFactory;
 
-class BasePage {
+public class BasePage {
     WebDriver driver;
 
-
-    BasePage(WebDriver driver) {
+    public BasePage(WebDriver driver) {
         this.driver = driver;
+        PageFactory.initElements(driver, this);
     }
 
     void fillText(WebElement element, String text){
@@ -16,20 +17,19 @@ class BasePage {
         element.sendKeys(text);
     }
 
+    void click(WebElement element){
+        element.click();
+    }
+
     String getText(WebElement element){
         return element.getText();
     }
 
-    public void click(WebElement webElement) {
-        webElement.click();
-    }
-
     void sleep(long millis){
-        try{
+        try {
             Thread.sleep(millis);
-        }catch (Exception e){
+        } catch (Exception e){
             System.out.println(e);
         }
     }
-
 }
