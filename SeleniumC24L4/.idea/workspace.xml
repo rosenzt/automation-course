@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="816ae698-365f-4a85-98dd-dd4bc20cf83d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../TestngHomework/TestngHomework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestngHomework/src/com/pageobjects/TaskListPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestngHomework/src/com/tests/TestTasksPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SeleniumC24L4/pageobjects/TasksListPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SeleniumC24L4/tests/NewSimpleTaskTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TenthLessonHomework/.idea/libraries/org_testng_testng_6_8_14.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TenthLessonHomework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TenthLessonHomework/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TenthLessonHomework/TenthLessonHomework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../TenthLessonHomework/TenthLessonHomework.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TenthLessonHomework/out/production/TenthLessonHomework/com/pageobjects/AdvancedTaskPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TenthLessonHomework/out/production/TenthLessonHomework/com/pageobjects/AdvancedTaskPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TenthLessonHomework/out/production/TenthLessonHomework/com/pageobjects/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TenthLessonHomework/out/production/TenthLessonHomework/com/pageobjects/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TenthLessonHomework/out/production/TenthLessonHomework/com/pageobjects/TasksListPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TenthLessonHomework/out/production/TenthLessonHomework/com/pageobjects/TasksListPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TenthLessonHomework/src/com/pageobjects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TenthLessonHomework/src/com/pageobjects/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TenthLessonHomework/src/com/pageobjects/TasksListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TenthLessonHomework/src/com/pageobjects/TasksListPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestngHomework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestngHomework/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/src/tests/Test1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -460,7 +447,7 @@
     <entry file="file://$PROJECT_DIR$/src/tests/Test1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>

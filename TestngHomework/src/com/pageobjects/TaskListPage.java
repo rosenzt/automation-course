@@ -30,5 +30,12 @@ public class TaskListPage extends BasePage{
         click(btnSumbit);
     }
 
+    public String searchForTasks(String taskName){
+        fillText(searchField, taskName);
+        sleep(500);
+        return getText(numberOfTasks);
+    }
+
+
 
 }

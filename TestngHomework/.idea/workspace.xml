@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65e4e96a-cc0a-49e7-aaba-24a37348d0d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TestngHomework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pageobjects/TaskListPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tests/TestTasksPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tests/SearchTaskTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NinthLessonHomeWork/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NinthLessonHomeWork/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SeleniumC24L4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumC24L4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumC24L4/out/production/SeleniumC24L4/pageobjects/TasksListPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumC24L4/out/production/SeleniumC24L4/tests/NewSimpleTaskTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TenthLessonHomework/.idea/libraries/org_testng_testng_6_8_14.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TenthLessonHomework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TenthLessonHomework/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TenthLessonHomework/TenthLessonHomework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../TenthLessonHomework/TenthLessonHomework.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TenthLessonHomework/out/production/TenthLessonHomework/com/pageobjects/AdvancedTaskPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TenthLessonHomework/out/production/TenthLessonHomework/com/pageobjects/AdvancedTaskPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TenthLessonHomework/out/production/TenthLessonHomework/com/pageobjects/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TenthLessonHomework/out/production/TenthLessonHomework/com/pageobjects/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TenthLessonHomework/out/production/TenthLessonHomework/com/pageobjects/TasksListPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TenthLessonHomework/out/production/TenthLessonHomework/com/pageobjects/TasksListPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TenthLessonHomework/src/com/pageobjects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TenthLessonHomework/src/com/pageobjects/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TenthLessonHomework/src/com/pageobjects/TasksListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TenthLessonHomework/src/com/pageobjects/TasksListPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pageobjects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pageobjects/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pageobjects/TaskListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pageobjects/TaskListPage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,10 +23,24 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pageobjects/BasePage.java">
+        <entry file="file://$PROJECT_DIR$/src/com/tests/TestTasksPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+              <caret line="16" column="16" lean-forward="true" selection-start-line="15" selection-end-line="18" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#814#815#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pageobjects/BasePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#386#387#0" expanded="true" />
@@ -49,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/pageobjects/TaskListPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="570">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#152#153#0" expanded="true" />
@@ -61,14 +67,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/tests/TestTasksPage.java">
+        <entry file="file://$PROJECT_DIR$/src/com/tests/SearchTaskTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+            <state relative-caret-position="540">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#814#815#0" expanded="true" />
-                <element signature="e#835#836#0" expanded="true" />
+                <element signature="e#993#994#0" expanded="true" />
+                <element signature="e#1014#1015#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,16 +95,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/com/tests/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/com/tests/TestTasksPage.java" />
         <option value="$PROJECT_DIR$/src/com/pageobjects/BasePage.java" />
         <option value="$PROJECT_DIR$/src/com/pageobjects/TaskListPage.java" />
-        <option value="$PROJECT_DIR$/src/com/tests/TestTasksPage.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/src/com/tests/SearchTaskTest.java" />
       </list>
     </option>
   </component>
@@ -139,13 +140,6 @@
               <item name="TestngHomework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="pageobjects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestngHomework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestngHomework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -159,6 +153,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -181,7 +176,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.SearchTaskTest">
+    <configuration name="SearchTaskTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestngHomework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.tests.SearchTaskTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestTasksPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestngHomework" />
       <extension name="coverage">
@@ -201,6 +213,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SearchTaskTest" />
         <item itemvalue="TestNG.TestTasksPage" />
       </list>
     </recent_temporary>
@@ -218,6 +231,14 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TestTasksPage - 2019.07.24 at 17h 10m 07s.xml">
+      <configuration name="TestTasksPage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestTasksPage - 2019.07.24 at 17h 14m 56s.xml">
+      <configuration name="TestTasksPage" configurationId="TestNG" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
@@ -232,9 +253,10 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32953367" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -250,10 +272,20 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/pageobjects/BasePage.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tests/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pageobjects/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#386#387#0" expanded="true" />
@@ -266,8 +298,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pageobjects/TaskListPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="570">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#152#153#0" expanded="true" />
@@ -278,12 +310,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tests/TestTasksPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        <state relative-caret-position="240">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="15" selection-end-line="18" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#814#815#0" expanded="true" />
             <element signature="e#835#836#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tests/SearchTaskTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="true" />
           </folding>
         </state>
       </provider>
