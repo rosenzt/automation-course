@@ -12,23 +12,23 @@ abstract class BasePage {
         PageFactory.initElements(driver, this);
     }
 
-    void fillText(WebElement element, String text){
+    void fillText(WebElement element, String text) {
         element.clear();
         element.sendKeys(text);
     }
 
-    void click(WebElement element){
+    void click(WebElement element) {
         element.click();
     }
 
-    String getText(WebElement element){
+    String getText(WebElement element) {
         return element.getText();
     }
 
-    void sleep(long millis){
+    void sleep(long millis) {
         try {
             Thread.sleep(millis);
-        } catch (Exception e){
+        } catch (Exception e) {
             System.out.println(e);
         }
     }
