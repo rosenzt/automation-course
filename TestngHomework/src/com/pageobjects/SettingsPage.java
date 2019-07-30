@@ -12,6 +12,9 @@ public class SettingsPage extends BasePage {
     @FindBy(css=".form-buttons>[type=submit]")
     private WebElement submitButton;
 
+    @FindBy(css = "#msg > span")
+    private WebElement message;
+
     public SettingsPage(WebDriver driver) {
         super(driver);
     }
@@ -23,6 +26,8 @@ public class SettingsPage extends BasePage {
         fillText(titleField, newPageTitle);
         sleep(50);
         click(submitButton);
+        sleep(10);
+        System.out.println(getText(message));
         sleep(500);
     }
 }
