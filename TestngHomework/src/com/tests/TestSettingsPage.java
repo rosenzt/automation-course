@@ -15,4 +15,10 @@ public class TestSettingsPage extends BaseTest {
         SettingsPage settingsPage = new SettingsPage(driver);
         settingsPage.changePageTitle(newPageTitle);
     }
+
+    @Test
+    public void changeLanguage(){
+        SettingsPage settingsPage = new SettingsPage(driver);
+        settingsPage.changeLanguage("Russian");
+    }
 }

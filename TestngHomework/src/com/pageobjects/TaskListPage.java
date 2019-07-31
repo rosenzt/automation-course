@@ -45,6 +45,9 @@ public class TaskListPage extends BasePage {
     @FindBy(css = "#settings")
     private WebElement settingsLink;
 
+    @FindBy(css = "#taskview > .btnstr")
+    private WebElement tasksButton;
+
     public TaskListPage(WebDriver driver) {
         super(driver);
     }
@@ -121,5 +124,9 @@ public class TaskListPage extends BasePage {
 
     public void pressSettingsLink(){
         click(settingsLink);
+    }
+
+    public String getTasksButtonText(){
+        return getText(tasksButton);
     }
 }
