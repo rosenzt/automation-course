@@ -1,6 +1,7 @@
 package com.tests;
 
 import com.pageobjects.SettingsPage;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.sql.Timestamp;
@@ -11,14 +12,14 @@ public class TestSettingsPage extends BaseTest {
     private String newPageTitle = Long.toString(timestamp.getTime());
 
     @Test
-    public void renamePageTitle(){
+    public void test1renamePageTitle(){
         SettingsPage settingsPage = new SettingsPage(driver);
-        settingsPage.changePageTitle(newPageTitle);
+        Assert.assertTrue(settingsPage.changePageTitle(newPageTitle));
     }
 
     @Test
-    public void changeLanguage(){
+    public void test2changeLanguage(){
         SettingsPage settingsPage = new SettingsPage(driver);
-        settingsPage.changeLanguage("Russian");
+        Assert.assertTrue(settingsPage.changeLanguage("Russian"));
     }
 }

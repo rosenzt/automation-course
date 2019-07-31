@@ -21,7 +21,7 @@ public class SettingsPage extends BasePage {
         super(driver);
     }
 
-    public void changePageTitle(String newPageTitle) {
+    public boolean changePageTitle(String newPageTitle) {
         TaskListPage taskListPage = new TaskListPage(driver);
         taskListPage.pressSettingsLink();
         sleep(500);
@@ -31,6 +31,7 @@ public class SettingsPage extends BasePage {
         sleep(10);
         System.out.println(getText(message));
         sleep(500);
+        return getText(titleField).equals(newPageTitle);
     }
 
     public boolean changeLanguage(String language) {
@@ -62,9 +63,6 @@ public class SettingsPage extends BasePage {
     }
 
     private boolean validateLanguage(String text, String language) {
-//        if ((text.equals("Tasks") && language.equals("English")) || (text.equals("Задачи") && language.equals("Russian")) || (text.equals("الوسوم") && language.equals("Arabic"))) {
-//            return true;
-//        } else return false;
         return ((text.equals("Tasks") && language.equals("English")) || (text.equals("Задачи") && language.equals("Russian")) || (text.equals("الوسوم") && language.equals("Arabic")));
     }
 }

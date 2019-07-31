@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import java.sql.Timestamp;
 import java.util.List;
 
 public class TaskListPage extends BasePage {
@@ -48,6 +49,9 @@ public class TaskListPage extends BasePage {
     @FindBy(css = "#taskview > .btnstr")
     private WebElement tasksButton;
 
+    @FindBy(css = "#tasklist [type='checkbox']")
+    private WebElement checkboxes;
+
     public TaskListPage(WebDriver driver) {
         super(driver);
     }
@@ -67,7 +71,7 @@ public class TaskListPage extends BasePage {
         }
     }
 
-    public void clickAdvancedTaskButton() {
+    void clickAdvancedTaskButton() {
         click(btnAdvancedTask);
     }
 
@@ -122,11 +126,43 @@ public class TaskListPage extends BasePage {
         }
     }
 
-    public void pressSettingsLink(){
+    void pressSettingsLink() {
         click(settingsLink);
     }
 
-    public String getTasksButtonText(){
+    String getTasksButtonText() {
         return getText(tasksButton);
+    }
+
+    boolean verifiyTaskCreation(String taskName){
+        List<WebElement> tasksNames = driver.findElements(By.cssSelector("tasklist .tasktitle"));
+        for (WebElement e: tasksNames) {
+            if (getText(e).equals(taskName)){
+                break;
+            }
+        }
+    }
+
+    public boolean addAndRemoveTasks(int howManyTasks) {
+        Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+        String name = Long.toString(timestamp.getTime());
+
+        createNewList(name);
+        sleep(200);
+        selectList(name);
+        sleep(200);
+
+        for (int i = 0; i < howManyTasks; i++) {
+            addSimpleTask(String.valueOf(i + 1));
+            sleep(1000);
+        }
+        if (howManyTasks() != howManyTasks) {
+            return false;
+        }
+        for (int i = 0; i < howManyTasks; i++) {
+            click(checkboxes);
+            sleep(1000);
+        }
+        return (howManyTasks() == 0);
     }
 }
