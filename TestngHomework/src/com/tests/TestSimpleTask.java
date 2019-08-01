@@ -6,19 +6,19 @@ import org.testng.annotations.Test;
 
 import java.sql.Timestamp;
 
-public class TestSimpleTask extends BaseTest{
+public class TestSimpleTask extends BaseTest {
 
     @Test
-    void AaddSimpleTask() {
+    void test1addSimpleTask() {
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
         String taskName = Long.toString(timestamp.getTime());
 
         TaskListPage taskListPage = new TaskListPage(driver);
-        taskListPage.addSimpleTask(taskName);
+        Assert.assertTrue(taskListPage.addSimpleTask(taskName));
     }
 
     @Test
-    void BaddAndRemoveTasks(){
+    void test2addAndRemoveTasks() {
         TaskListPage taskListPage = new TaskListPage(driver);
         Assert.assertTrue(taskListPage.addAndRemoveTasks(5));
     }

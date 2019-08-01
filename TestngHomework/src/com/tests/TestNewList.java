@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import java.sql.Timestamp;
 
-public class TestNewList extends BaseTest{
+public class TestNewList extends BaseTest {
 
     private Timestamp timestamp = new Timestamp(System.currentTimeMillis());
     private String newListName = Long.toString(timestamp.getTime());

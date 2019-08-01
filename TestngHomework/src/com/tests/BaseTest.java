@@ -16,10 +16,10 @@ WebDriver driver;
         driver.get("http://www.mytinytodo.net/demo/");
     }
 
-//    @AfterClass
-//    void close() {
-//        driver.quit();
-//    }
+    @AfterClass
+    void close() {
+        driver.quit();
+    }
 
     void sleep(long millis){
         try {

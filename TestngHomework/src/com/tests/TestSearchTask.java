@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import java.sql.Timestamp;
 
-public class TestSearchTask extends BaseTest{
+public class TestSearchTask extends BaseTest {
 
     @Test
     void search() {

@@ -26,11 +26,7 @@ public class SettingsPage extends BasePage {
         taskListPage.pressSettingsLink();
         sleep(500);
         fillText(titleField, newPageTitle);
-        sleep(50);
-        click(submitButton);
-        sleep(10);
-        System.out.println(getText(message));
-        sleep(500);
+        sleep(1000);
         return getText(titleField).equals(newPageTitle);
     }
 
@@ -44,7 +40,7 @@ public class SettingsPage extends BasePage {
         } else {
             return false;
         }
-        sleep(50);
+        sleep(1000);
         click(submitButton);
         sleep(2000);
         return validateLanguage(taskListPage.getTasksButtonText(), language);

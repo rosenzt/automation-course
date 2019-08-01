@@ -56,9 +56,11 @@ public class TaskListPage extends BasePage {
         super(driver);
     }
 
-    public void addSimpleTask(String task) {
+    public boolean addSimpleTask(String task) {
         fillText(taskField, task);
         click(btnSumbit);
+        sleep(200);
+        return verifyTaskCreation(task);
     }
 
     public int searchForTasks(String taskName) {
@@ -109,21 +111,21 @@ public class TaskListPage extends BasePage {
         driver.switchTo().alert().sendKeys(newListName);
         driver.switchTo().alert().accept();
         sleep(2000);
-        System.out.println(newListName);
         return listName.getText().equals(newListName);
     }
 
 
     public boolean deleteList(String listName) {
+        createNewList(listName);
         selectList(listName);
+        sleep(1000);
         click(listActionsButton);
+        sleep(100);
         click(deleteListButton);
+        sleep(100);
         driver.switchTo().alert().accept();
-        if (!selectList(listName)) {
-            return true;
-        } else {
-            return false;
-        }
+        sleep(1000);
+        return selectList(listName);
     }
 
     void pressSettingsLink() {
@@ -134,13 +136,14 @@ public class TaskListPage extends BasePage {
         return getText(tasksButton);
     }
 
-    boolean verifiyTaskCreation(String taskName){
-        List<WebElement> tasksNames = driver.findElements(By.cssSelector("tasklist .tasktitle"));
-        for (WebElement e: tasksNames) {
-            if (getText(e).equals(taskName)){
-                break;
+    private boolean verifyTaskCreation(String taskName) {
+        List<WebElement> tasksNames = driver.findElements(By.cssSelector("#taskcontainer>#tasklist .task-title"));
+        for (WebElement e : tasksNames) {
+            if (getText(e).equals(taskName)) {
+                return true;
             }
         }
+        return false;
     }
 
     public boolean addAndRemoveTasks(int howManyTasks) {

@@ -6,14 +6,14 @@ import org.testng.annotations.Test;
 
 import java.sql.Timestamp;
 
-public class TestRenameList extends BaseTest {
-
+public class TestRemoveList extends BaseTest {
     private Timestamp timestamp = new Timestamp(System.currentTimeMillis());
     private String newListName = Long.toString(timestamp.getTime());
 
     @Test
-    public void renameList() {
+    public void removeList() {
         TaskListPage taskListPage = new TaskListPage(driver);
-        Assert.assertTrue(taskListPage.renameList(newListName));
+        Assert.assertFalse(taskListPage.deleteList(newListName));
     }
+
 }
