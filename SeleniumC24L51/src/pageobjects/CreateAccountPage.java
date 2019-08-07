@@ -19,7 +19,7 @@ public class CreateAccountPage extends BasePage {
     @FindBy(css="#ConfirmPassword")
     private WebElement confirmPasswordField;
 
-    @FindBy(css="#ConsentTC")
+    @FindBy(css="div.form-row.consent-section > label:nth-child(1) > span.select-option-check")
     private WebElement concentAgeCheckBox;
 
     @FindBy(css="#ConsentMKT")
