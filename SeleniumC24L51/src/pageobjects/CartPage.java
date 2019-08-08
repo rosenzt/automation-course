@@ -13,6 +13,10 @@ public class CartPage extends BasePage {
         super(driver);
     }
 
+    public boolean isProceedToCheckoutButtonDisplayed(){
+            return isElementDisplayedDisplayed(proceedToCheckoutButton);
+    }
+
     public void proceedToCheckout(){
         click(proceedToCheckoutButton);
     }
