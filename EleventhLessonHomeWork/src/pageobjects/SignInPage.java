@@ -44,7 +44,7 @@ public class SignInPage extends BasePage {
         return isElementDisplayedDisplayed(paswordError);
     }
 
-    public void signIn() {
+    public void pressSignInButton() {
         click(signinButton);
     }
 

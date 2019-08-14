@@ -38,32 +38,24 @@ public class CreateAccountPage extends BasePage {
         super(driver);
     }
 
-    public void selectCountryCode(String countryCode){
+    private void selectCountryCode(String countryCode){
         Select countryCodeSelection = new Select(selectCountryCode);
         countryCodeSelection.selectByValue(countryCode);
         sleep(100);
     }
 
-    public void fillPhoneNumber(String phoneNumber){
+    public void fillAllFields(String countryCode, String phoneNumber, String userName, String password, String confirmPassword){
+        selectCountryCode(countryCode);
         fillText(phoneNUmberField, phoneNumber);
-    }
-
-    public void userNameField(String userName){
         fillText(userNameField, userName);
-    }
-
-    public void fillPassword(String password){
         fillText(passwordField, password);
-    }
-
-    public void fillConfirmPasswordField(String password){
-        fillText(confirmPasswordField, password);
+        fillText(confirmPasswordField, confirmPassword);
     }
 
     public void selectAgeCheckbox(){
-        sleep(100);
+        //sleep(100);
         click(concentAgeCheckBox);
-        sleep(100);
+        //sleep(100);
     }
 
     public void selectMarketingCheckbox(){
@@ -75,7 +67,7 @@ public class CreateAccountPage extends BasePage {
        return getText(phoneErrorMassage);
     }
 
-    public void createAccount(){
+    public void pressCreateAccountButton(){
         click(createAccountButton);
     }
 

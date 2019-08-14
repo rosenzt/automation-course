@@ -1,12 +1,14 @@
 package pageobjects;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 abstract class BasePage {
     WebDriver driver;
-
+    JavascriptExecutor js;
     BasePage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
@@ -47,5 +49,14 @@ abstract class BasePage {
         }
     }
 
+    void scrollInToView(WebElement el) {
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", el);
+        sleep(500);
+    }
+
+    void scrollInElement(WebElement element){
+        EventFiringWebDriver eventFiringWebDriver = new EventFiringWebDriver(driver);
+        eventFiringWebDriver.executeScript("document.querySelector(" + element + ").scrollTop = 500");
+    }
 
 }

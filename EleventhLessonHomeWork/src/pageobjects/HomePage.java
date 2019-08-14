@@ -6,7 +6,20 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class HomePage extends BasePage {
+public class HomePage extends Header {
+
+    @FindBy(css = ".selected-country-wrapper .icon.icon-checkoutarrow")
+    private WebElement preferencesButton;
+
+    @FindBy(css = ".language-menu .row > div:nth-child(2) .select-language.ui.fluid.search.selection.dropdown")
+    private WebElement languageMenuButton;
+
+    @FindBy(css = ".language-menu .row > div:nth-child(2) .select-language.ui.fluid.search.selection.dropdown .menu.search-list.open label")
+    private List<WebElement> languageDropDownList;
+
+    @FindBy(css = ".save-selection.btn.btn-primary")
+    private WebElement savePreferencesButton;
+
     @FindBy(css = "#txtSearch")
     private WebElement searchField;
 
@@ -21,6 +34,23 @@ public class HomePage extends BasePage {
 
     public HomePage(WebDriver driver) {
         super(driver);
+    }
+
+
+    public void switchLanguage(String language) {
+        click(preferencesButton);
+        //sleep(1000);
+        click(languageMenuButton);
+        //sleep(2000);
+        for (WebElement el : languageDropDownList) {
+            if (getText(el).toLowerCase().contains(language.toLowerCase())) {
+                click(el);
+                break;
+            }
+        }
+        //sleep(2000);
+        click(savePreferencesButton);
+        //sleep(1000);
     }
 
     public void search(String name) {

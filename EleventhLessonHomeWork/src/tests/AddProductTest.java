@@ -36,7 +36,7 @@ public class AddProductTest extends BaseTest {
         cartPage.proceedToCheckout();
 
         SignInPage signInPage = new SignInPage(driver);
-        signInPage.signIn();
+        signInPage.pressSignInButton();
         sleep(1000);
         Assert.assertTrue(signInPage.isUserNameErrorDisplayed());
         Assert.assertTrue(signInPage.isPasswordErrorDisplayed());
@@ -48,13 +48,10 @@ public class AddProductTest extends BaseTest {
         signInPage.clickCreateAccount();
 
         CreateAccountPage createAccountPage = new CreateAccountPage(driver);
-        createAccountPage.selectCountryCode("IL");
-        createAccountPage.fillPhoneNumber(name);
-        createAccountPage.userNameField(name + '@' + name);
-        createAccountPage.fillPassword(name);
-        createAccountPage.fillConfirmPasswordField(name);
+        String userName = name + '@' + name;
+        createAccountPage.fillAllFields("IL", name, userName, name, name);
         createAccountPage.selectAgeCheckbox();
-        createAccountPage.createAccount();
+        createAccountPage.pressCreateAccountButton();
 
         Assert.assertEquals(createAccountPage.getErrorMassage(), "Phone number is too long. Please enter a valid phone number");
     }
