@@ -3,11 +3,13 @@ package pageobjects;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 abstract class BasePage {
     WebDriver driver;
+
     JavascriptExecutor js;
     BasePage(WebDriver driver) {
         this.driver = driver;
@@ -57,6 +59,11 @@ abstract class BasePage {
     void scrollInElement(WebElement element){
         EventFiringWebDriver eventFiringWebDriver = new EventFiringWebDriver(driver);
         eventFiringWebDriver.executeScript("document.querySelector(" + element + ").scrollTop = 500");
+    }
+
+    void hoverOverElement(WebElement element){
+        Actions action = new Actions(driver);
+        action.moveToElement(element).perform();
     }
 
 }
