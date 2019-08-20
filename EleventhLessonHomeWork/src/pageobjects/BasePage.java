@@ -66,4 +66,12 @@ abstract class BasePage {
         action.moveToElement(element).perform();
     }
 
+    String getUrl(){
+        return driver.getCurrentUrl();
+    }
+
+    void isVisable(WebElement element){
+        element.isDisplayed();
+    }
+
 }
