@@ -66,7 +66,7 @@ abstract class BasePage {
         action.moveToElement(element).perform();
     }
 
-    String getUrl(){
+    public String getUrl(){
         return driver.getCurrentUrl();
     }
 

@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class ProductPage extends Header{
+public class ProductPage extends BaseMenus {
 	@FindBy(css=".btn-add-to-cart")
 	private WebElement btnAddToCart;
 	

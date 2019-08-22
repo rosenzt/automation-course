@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
 
-public class Header extends BasePage {
+public class BaseMenus extends BasePage {
 
     @FindBy(css = "#legacy-header .stackable-below .nav-item-list [data-sticky-header-menu-category] [data-ga-event-label]")
     //
@@ -17,11 +17,19 @@ public class Header extends BasePage {
     private List<WebElement> viewAllButtons;
 
     @FindBy(css = "#legacy-header .secondary-header-categories-menu [data-ga-event-label]")
-    // .secondary-header-categories-menu
     private List<WebElement> secondaryHearder;
 
+    @FindBy(css="#PriceFilters")
+    private WebElement priceFilters;
 
-    public Header(WebDriver driver) {
+    @FindBy(css="#PriceFilters .price-range")
+    private WebElement priceRange;
+
+    @FindBy(css="#PriceFilters .filter-list.no-scroll .filter-name")
+    private List<WebElement> fixedPriceRanges;
+
+
+    public BaseMenus(WebDriver driver) {
         super(driver);
     }
 
@@ -35,7 +43,7 @@ public class Header extends BasePage {
                     //pressViewAllButton(category);
                     Actions actions = new Actions(driver);
                     //actions.moveToElement(element).moveToElement(pressViewAllButton(category)).click().build().perform();
-                    actions.moveToElement(element).click().perform();
+                    actions.moveToElement(element).click().build().perform();
                 }
             } catch (Exception e) {
                 System.out.println(e);
@@ -75,18 +83,32 @@ public class Header extends BasePage {
 
     public void getSecondaryHeaderMenuItem(String category) {
         Actions actions = new Actions(driver);
-        actions.moveToElement(selectHeaderCategory(category)).moveToElement(getSomeThing("New"));
-
-
+        actions.moveToElement(selectHeaderCategory(category)).moveToElement(getSomeThing("New")).click().build().perform();
     }
 
-    public WebElement getSomeThing(String item) {
+    private WebElement getSomeThing(String item) {
         for (WebElement element : secondaryHearder) {
             System.out.println(element.getAttribute("data-ga-event-label"));
-//            if (element.getAttribute("data-ga-event-label").equals(item)){
-//                return element;
-//            }
+            if (element.getAttribute("data-ga-event-label").equals(item)){
+                return element;
+            }
         }
         return null;
+    }
+
+    /****
+     * Tried to click elements visible only while hover over is in effect -> didn't work
+     * Also wanted to verify their visibility.*/
+
+    public void clickPriceFilter(){
+        click(priceFilters);
+    }
+
+    public void selectedFixedPriceRange(String id){
+        for (WebElement element : fixedPriceRanges) {
+            if (element.getAttribute("id").toLowerCase().equals(id)){
+                click(element);
+            }
+        }
     }
 }

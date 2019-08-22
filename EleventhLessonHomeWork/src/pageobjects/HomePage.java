@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class HomePage extends Header {
+public class HomePage extends BaseMenus {
 
     @FindBy(css = ".selected-country-wrapper .icon.icon-checkoutarrow")
     private WebElement preferencesButton;
@@ -71,6 +71,5 @@ public class HomePage extends Header {
     public void openCart() {
         click(btnCart);
     }
-
 
 }
