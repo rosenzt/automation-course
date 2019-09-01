@@ -1,8 +1,8 @@
 package tests;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
-import pageobjects.Supplements;
+        import org.testng.Assert;
+        import org.testng.annotations.Test;
+        import pageobjects.Supplements;
 
 public class SupplementsTest extends BaseTest {
 
@@ -14,7 +14,11 @@ public class SupplementsTest extends BaseTest {
     }
 
     @Test
-    public void test2PriceFilter(){
-        
+    public void test2PriceFilter() {
+        Supplements supplements = new Supplements(driver);
+        supplements.clickPriceFilter();
+        supplements.selectedFixedPriceRange("Filter$50+5");
+        sleep(2000);
+        supplements.getPrices();
     }
 }

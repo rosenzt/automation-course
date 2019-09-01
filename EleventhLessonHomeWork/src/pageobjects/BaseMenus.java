@@ -1,5 +1,7 @@
 package pageobjects;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -19,13 +21,13 @@ public class BaseMenus extends BasePage {
     @FindBy(css = "#legacy-header .secondary-header-categories-menu [data-ga-event-label]")
     private List<WebElement> secondaryHearder;
 
-    @FindBy(css="#PriceFilters")
+    @FindBy(css = "#PriceFilters")
     private WebElement priceFilters;
 
-    @FindBy(css="#PriceFilters .price-range")
+    @FindBy(css = "#PriceFilters .price-range")
     private WebElement priceRange;
 
-    @FindBy(css="#PriceFilters .filter-list.no-scroll .filter-name")
+    @FindBy(css = "#PriceFilters .filter-list.no-scroll .filter-name .checkbox-filter")
     private List<WebElement> fixedPriceRanges;
 
 
@@ -89,7 +91,7 @@ public class BaseMenus extends BasePage {
     private WebElement getSomeThing(String item) {
         for (WebElement element : secondaryHearder) {
             System.out.println(element.getAttribute("data-ga-event-label"));
-            if (element.getAttribute("data-ga-event-label").equals(item)){
+            if (element.getAttribute("data-ga-event-label").equals(item)) {
                 return element;
             }
         }
@@ -100,14 +102,23 @@ public class BaseMenus extends BasePage {
      * Tried to click elements visible only while hover over is in effect -> didn't work
      * Also wanted to verify their visibility.*/
 
-    public void clickPriceFilter(){
+    public void clickPriceFilter() {
         click(priceFilters);
+        sleep(3000);
     }
 
-    public void selectedFixedPriceRange(String id){
+    public void selectedFixedPriceRange(String id) {
         for (WebElement element : fixedPriceRanges) {
-            if (element.getAttribute("id").toLowerCase().equals(id)){
-                click(element);
+            if (element.getAttribute("id").equals(id)) {
+                try {
+                    click(driver.findElement(By.cssSelector("#Filter$0-$51")));
+                } catch (Exception e) {
+                    Actions action = new Actions(driver);
+                    action.moveToElement(element).click(element).build().perform();
+                }
+            }
+            else {
+                System.out.println(id + " Not found.");
             }
         }
     }

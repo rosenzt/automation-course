@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e45d957-e6e8-4148-95fd-d29b2f0609da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Composition/Question3/Automobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Composition/Question3/Automobile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeventhLesonHomework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeventhLesonHomework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EleventhLessonHomeWork/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EleventhLessonHomeWork/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EleventhLessonHomeWork/out/production/SeleniumC24L51/pageobjects/BaseMenus.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EleventhLessonHomeWork/out/production/SeleniumC24L51/pageobjects/BaseMenus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EleventhLessonHomeWork/out/production/SeleniumC24L51/tests/SupplementsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EleventhLessonHomeWork/out/production/SeleniumC24L51/tests/SupplementsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EleventhLessonHomeWork/src/pageobjects/BaseMenus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EleventhLessonHomeWork/src/pageobjects/BaseMenus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EleventhLessonHomeWork/src/tests/SupplementsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EleventhLessonHomeWork/src/tests/SupplementsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +19,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Composition/Question3/Main.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -29,7 +32,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Composition/Question3/Automobile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
+            <state relative-caret-position="300">
               <caret line="60" selection-start-line="60" selection-end-line="60" />
               <folding>
                 <element signature="e#491#492#0" expanded="true" />
@@ -44,7 +47,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Composition/Question3/Radio.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="255">
               <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="e#266#267#0" expanded="true" />
@@ -114,7 +117,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="46" />
     <option name="y" value="23" />
     <option name="width" value="1874" />
@@ -126,7 +129,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -150,6 +152,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -258,7 +261,7 @@
   <component name="ToolWindowManager">
     <frame x="46" y="23" width="1874" height="1057" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13100436" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13209607" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -500,7 +503,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Composition/Question3/Radio.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="255">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#266#267#0" expanded="true" />
@@ -516,7 +519,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Composition/Question3/Automobile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
+        <state relative-caret-position="300">
           <caret line="60" selection-start-line="60" selection-end-line="60" />
           <folding>
             <element signature="e#491#492#0" expanded="true" />
