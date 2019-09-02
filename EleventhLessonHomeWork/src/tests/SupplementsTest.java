@@ -19,6 +19,6 @@ public class SupplementsTest extends BaseTest {
         supplements.clickPriceFilter();
         supplements.selectedFixedPriceRange("Filter$50+5");
         sleep(2000);
-        supplements.getPrices();
+        supplements.validatePrices("bigger", 50,null);
     }
 }

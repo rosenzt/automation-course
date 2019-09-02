@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfcdbf2a-353f-4698-aa1a-2580202edc2f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../EighthLessonHomeWork/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EighthLessonHomeWork/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pageobjects/BaseMenus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/BaseMenus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pageobjects/Supplements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/Supplements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tests/SupplementsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/SupplementsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FourthLessonHomeWork/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FourthLessonHomeWork/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,10 +82,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pageobjects/Supplements.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+            <state relative-caret-position="219">
+              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,12 +131,12 @@
         <option value="$PROJECT_DIR$/src/pageobjects/HomePage.java" />
         <option value="$PROJECT_DIR$/src/pageobjects/BasePage.java" />
         <option value="$PROJECT_DIR$/src/pageobjects/BaseMenus.java" />
-        <option value="$PROJECT_DIR$/src/tests/SupplementsTest.java" />
         <option value="$PROJECT_DIR$/src/pageobjects/Supplements.java" />
+        <option value="$PROJECT_DIR$/src/tests/SupplementsTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="1920" />
     <option name="y" value="23" />
     <option name="width" value="1920" />
@@ -295,9 +293,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SupplementsTest - 2019.09.01 at 16h 56m 07s.xml">
-      <configuration name="SupplementsTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="SupplementsTest - 2019.09.01 at 19h 16m 17s.xml">
       <configuration name="SupplementsTest" configurationId="TestNG" />
     </history-entry>
@@ -325,10 +320,12 @@
     <history-entry file="SupplementsTest - 2019.09.01 at 19h 52m 51s.xml">
       <configuration name="SupplementsTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="SupplementsTest - 2019.09.02 at 12h 15m 27s.xml">
+      <configuration name="SupplementsTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="23" width="1920" height="1057" extended-state="6" />
-    <editor active="true" />
+    <frame x="1920" y="23" width="1920" height="1057" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1799787" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -339,7 +336,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.43523315" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" weight="0.44455957" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946752" visible="true" weight="0.44455957" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5119171" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -512,10 +509,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pageobjects/Supplements.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        <state relative-caret-position="219">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
           </folding>
         </state>
       </provider>

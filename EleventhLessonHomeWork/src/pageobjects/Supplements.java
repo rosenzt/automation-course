@@ -15,10 +15,19 @@ public class Supplements extends BaseMenus {
     @FindBy(css = "#FilteredProducts .product.ga-product.col-xs-12.col-sm-12.col-md-8.col-lg-6 .price bdi")
     List<WebElement> productsList;
 
-
-    public void getPrices(){
+    public boolean validatePrices(String biggerSmallerOrBetween, int value, Integer value2) {
         for (WebElement element : productsList) {
-            Integer.valueOf(getText(element));
-        }
-    }
+            switch (biggerSmallerOrBetween.toLowerCase()) {
+                case "bigger":
+                    return Integer.valueOf(getText(element)) > value;
+                case "lower":
+                    return Integer.valueOf(getText(element)) < value;
+                case "between":
+                    return Integer.valueOf(getText(element)) > value && Integer.valueOf(getText(element)) < value2;
+                default:
+                    return false;
+            }//switch
+        }//for
+        return false;
+    }//validatePrices
 }
