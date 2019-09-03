@@ -30,6 +30,8 @@ public class BaseMenus extends BasePage {
     @FindBy(css = "#PriceFilters .filter-list.no-scroll .filter-name .checkbox-filter")
     private List<WebElement> fixedPriceRanges;
 
+    @FindBy(css="#exclusive-brands-checkbox")
+    private WebElement exclusive;
 
     public BaseMenus(WebDriver driver) {
         super(driver);
@@ -121,5 +123,9 @@ public class BaseMenus extends BasePage {
                 System.out.println(id + " Not found.");
             }
         }
+    }//selectedFixedPriceRange
+
+    public void exclusiveFilter(){
+        click(exclusive);
     }
 }
