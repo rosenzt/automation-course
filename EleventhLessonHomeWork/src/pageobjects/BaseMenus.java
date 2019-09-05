@@ -33,6 +33,21 @@ public class BaseMenus extends BasePage {
     @FindBy(css="#exclusive-brands-checkbox")
     private WebElement exclusive;
 
+    @FindBy(css=".popup-container.modal-exclusive.show")
+    private WebElement toolTip;
+
+    @FindBy(css=".popup-container.modal-exclusive.show .popup-title")
+    private WebElement toolTipTitle;
+
+    @FindBy(css=".popup-container.modal-exclusive.show .popup-content")
+    private WebElement toolTipContent;
+
+    @FindBy(css=".popup-container.modal-exclusive.show .popup-close .icon-circlex")
+    private WebElement toolTipTitleClosingButton;
+
+    @FindBy(css="#exclusive-brands-checkbox .filter-name [for=FilterExclusive7]")
+    private WebElement exclusiveFilter;
+
     public BaseMenus(WebDriver driver) {
         super(driver);
     }
@@ -120,12 +135,33 @@ public class BaseMenus extends BasePage {
                 }
             }
             else {
-                System.out.println(id + " Not found.");
+                System.out.println(id + "Not found.");
             }
         }
     }//selectedFixedPriceRange
 
+    public void exclusiveToolTip(){
+        Actions action = new Actions(driver);
+        action.moveToElement(exclusive).click(exclusive).build().perform();
+    }
+
+    public boolean verifyToolTipAppears(){
+        return isElementDisplayedDisplayed(toolTip);
+    }
+
+    public String getToolTipTitle(){
+        return getText(toolTipTitle);
+    }
+
+    public String getToolTipContent(){
+        return getText(toolTipContent);
+    }
+
+    public void closeToolTip(){
+        click(toolTipTitleClosingButton);
+    }
+
     public void exclusiveFilter(){
-        click(exclusive);
+        click(exclusiveFilter);
     }
 }

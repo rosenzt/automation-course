@@ -11,13 +11,18 @@ abstract class BasePage {
     WebDriver driver;
 
     JavascriptExecutor js;
+
     BasePage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 
     boolean isElementDisplayedDisplayed(WebElement webElement) {
-        return webElement.isDisplayed();
+        try {
+            return webElement.isDisplayed();
+        } catch (Exception e) {
+            return false;
+        }
     }
 
     void fillText(WebElement el, String text) {
@@ -56,21 +61,21 @@ abstract class BasePage {
         sleep(500);
     }
 
-    void scrollInElement(WebElement element){
+    void scrollInElement(WebElement element) {
         EventFiringWebDriver eventFiringWebDriver = new EventFiringWebDriver(driver);
         eventFiringWebDriver.executeScript("document.querySelector(" + element + ").scrollTop = 500");
     }
 
-    void hoverOverElement(WebElement element){
+    void hoverOverElement(WebElement element) {
         Actions action = new Actions(driver);
         action.moveToElement(element).perform();
     }
 
-    public String getUrl(){
+    public String getUrl() {
         return driver.getCurrentUrl();
     }
 
-    void isVisable(WebElement element){
+    void isVisable(WebElement element) {
         element.isDisplayed();
     }
 
