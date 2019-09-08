@@ -12,7 +12,6 @@ import java.util.List;
 public class BaseMenus extends BasePage {
 
     @FindBy(css = "#legacy-header .stackable-below .nav-item-list [data-sticky-header-menu-category] [data-ga-event-label]")
-    //
     private List<WebElement> categories;
 
     @FindBy(css = "li.sticky-header-menu-navigation-list-item.view-all [data-ga-event-label][data-ga-event-action]")//
@@ -53,6 +52,9 @@ public class BaseMenus extends BasePage {
 
     @FindBy(css = "#FilteredProducts .applied-filters .applied-filter-row .applied-filter")
     private List<WebElement> appliedFilter;
+
+    @FindBy(css="#legacy-header .iherb-header.stackable-base .iherb-header-share.share-page.float-right .hidden-xs.hidden-sm")
+    private WebElement shareButton;
 
     public BaseMenus(WebDriver driver) {
         super(driver);
@@ -189,6 +191,10 @@ public class BaseMenus extends BasePage {
                 click(element);
         }
         sleep(2000);
+    }
+
+    public void clickShareButton(){
+        click(shareButton);
     }
 
 }

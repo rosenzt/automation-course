@@ -75,8 +75,4 @@ abstract class BasePage {
         return driver.getCurrentUrl();
     }
 
-    void isVisable(WebElement element) {
-        element.isDisplayed();
-    }
-
 }
