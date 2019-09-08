@@ -30,28 +30,33 @@ public class BaseMenus extends BasePage {
     @FindBy(css = "#PriceFilters .filter-list.no-scroll .filter-name .checkbox-filter")
     private List<WebElement> fixedPriceRanges;
 
-    @FindBy(css="#exclusive-brands-checkbox")
+    @FindBy(css = "#exclusive-brands-checkbox")
     private WebElement exclusive;
 
-    @FindBy(css=".popup-container.modal-exclusive.show")
+    @FindBy(css = ".popup-container.modal-exclusive.show")
     private WebElement toolTip;
 
-    @FindBy(css=".popup-container.modal-exclusive.show .popup-title")
+    @FindBy(css = ".popup-container.modal-exclusive.show .popup-title")
     private WebElement toolTipTitle;
 
-    @FindBy(css=".popup-container.modal-exclusive.show .popup-content")
+    @FindBy(css = ".popup-container.modal-exclusive.show .popup-content")
     private WebElement toolTipContent;
 
-    @FindBy(css=".popup-container.modal-exclusive.show .popup-close .icon-circlex")
+    @FindBy(css = ".popup-container.modal-exclusive.show .popup-close .icon-circlex")
     private WebElement toolTipTitleClosingButton;
 
-    @FindBy(css="#exclusive-brands-checkbox .filter-name [for=FilterExclusive7]")
+    @FindBy(css = "#exclusive-brands-checkbox .filter-name [for=FilterExclusive7]")
     private WebElement exclusiveFilter;
+
+    @FindBy(css = ".pagination>.pagination-link span")
+    private List<WebElement> pagination;
+
+    @FindBy(css = "#FilteredProducts .applied-filters .applied-filter-row .applied-filter")
+    private List<WebElement> appliedFilter;
 
     public BaseMenus(WebDriver driver) {
         super(driver);
     }
-
 
     public boolean selectAndClickHeaderCategory(String category) {
         for (WebElement element : categories) {
@@ -133,35 +138,57 @@ public class BaseMenus extends BasePage {
                     Actions action = new Actions(driver);
                     action.moveToElement(element).click(element).build().perform();
                 }
-            }
-            else {
+            } else {
                 System.out.println(id + "Not found.");
             }
         }
     }//selectedFixedPriceRange
 
-    public void exclusiveToolTip(){
+    public void exclusiveToolTip() {
         Actions action = new Actions(driver);
         action.moveToElement(exclusive).click(exclusive).build().perform();
     }
 
-    public boolean verifyToolTipAppears(){
+    public boolean verifyToolTipAppears() {
         return isElementDisplayedDisplayed(toolTip);
     }
 
-    public String getToolTipTitle(){
+    public String getToolTipTitle() {
         return getText(toolTipTitle);
     }
 
-    public String getToolTipContent(){
+    public String getToolTipContent() {
         return getText(toolTipContent);
     }
 
-    public void closeToolTip(){
+    public void closeToolTip() {
         click(toolTipTitleClosingButton);
     }
 
-    public void exclusiveFilter(){
+    public void addExclusiveFilter() {
         click(exclusiveFilter);
+        sleep(2000);
     }
+
+    public String getLastPaginationValue() {
+        return getText(pagination.get(pagination.size() - 1));
+    }
+
+    public boolean verifyAppliedFilters(String filterName) {
+        for (WebElement element : appliedFilter) {
+            if (getText(element).toLowerCase().equals(filterName.toLowerCase())) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public void closeAppliedFilter(String filterName) {
+        for (WebElement element : appliedFilter) {
+            if (getText(element).toLowerCase().equals(filterName.toLowerCase()))
+                click(element);
+        }
+        sleep(2000);
+    }
+
 }
