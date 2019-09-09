@@ -1,9 +1,12 @@
 package pageobjects;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
+import java.security.Key;
 import java.util.List;
 
 public class ContactPage extends BaseMenus {
@@ -44,7 +47,9 @@ public class ContactPage extends BaseMenus {
 
     public void enterAndClickSearchField(String text) {
         fillText(searchField, text);
-        click(searchField);
+        sleep(2000);
+        Actions actions = new Actions(driver);
+        actions.sendKeys(Keys.RETURN).build().perform();
     }
 
     public boolean verifySearchSuggestions(String text) {
@@ -60,6 +65,7 @@ public class ContactPage extends BaseMenus {
             if (getText(element).toLowerCase().contains(text.toLowerCase())) {
                 click(element);
                 searchResultId = element.getAttribute("id");
+                sleep(1000);
             }
         }
     }
@@ -76,6 +82,4 @@ public class ContactPage extends BaseMenus {
     public String getSearchAnswerTitle() {
         return getText(selectedAnswerTitle);
     }
-
-
 }

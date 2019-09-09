@@ -52,4 +52,4 @@ public class ContactPageTest extends BaseTest {
         ContactPage contactPage = new ContactPage(driver);
         contactPage.enterAndClickSearchField("iHerb");
     }
-}
+ }
