@@ -36,11 +36,11 @@ public class SocialPanelTest extends BaseTest {
         SharePanel sharePanel = new SharePanel(driver);
         System.out.println("Current URL: " + sharePanel.getUrl());
         System.out.println("Shareable URL: " + sharePanel.getFromClipboard());
-        Assert.assertEquals(sharePanel.getUrl(),sharePanel.getFromClipboard());
+        Assert.assertEquals(sharePanel.getUrl(), sharePanel.getFromClipboard());
     }
 
     @Test
-    public void test5testShortenUrls(){
+    public void test5testShortenUrls() {
         SharePanel sharePanel = new SharePanel(driver);
         initialUrl = sharePanel.getFromClipboard();
         sharePanel.clickShortenUrlCheckbox();
@@ -51,7 +51,7 @@ public class SocialPanelTest extends BaseTest {
     }
 
     @Test
-    public void test6closeSharePanel(){
+    public void test6closeSharePanel() {
         SharePanel sharePanel = new SharePanel(driver);
         sharePanel.closeSharePanel();
         sleep(1000);
@@ -59,12 +59,24 @@ public class SocialPanelTest extends BaseTest {
     }
 
     @Test
-    public void test7pasteUrl() {
+    public void test7TwitterIconIsNotDisplayed() {
+        SharePanel sharePanel = new SharePanel(driver);
+        Assert.assertFalse(sharePanel.verifyTwitterIconIsDisplayed());
+    }
+
+    @Test
+    public void test8PinterestIconIsNotDisplayed() {
+        SharePanel sharePanel = new SharePanel(driver);
+        Assert.assertFalse(sharePanel.verifyPinterestIconIsDisplayed());
+    }
+
+    @Test
+    public void test9pasteUrl() {
         SharePanel sharePanel = new SharePanel(driver);
         openNewTab();
         goToUrl(shortenUrl);
         sleep(2000);
-        Assert.assertEquals(initialUrl,sharePanel.getUrl());
+        Assert.assertEquals(initialUrl, sharePanel.getUrl());
 
     }
 }

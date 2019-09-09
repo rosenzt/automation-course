@@ -48,7 +48,7 @@ public class BaseTest {
         driver.switchTo().window(tabs.get(1));
     }
 
-    void goToUrl(String url){
+    void goToUrl(String url) {
         driver.navigate().to(url);
     }
 }

@@ -50,10 +50,10 @@ public class BaseMenus extends BasePage {
     @FindBy(css = "#FilteredProducts .applied-filters .applied-filter-row .applied-filter")
     private List<WebElement> appliedFilter;
 
-    @FindBy(css="#legacy-header .iherb-header.stackable-base .iherb-header-share.share-page.float-right .hidden-xs.hidden-sm")
+    @FindBy(css = "#legacy-header .iherb-header.stackable-base .iherb-header-share.share-page.float-right .hidden-xs.hidden-sm")
     private WebElement shareButton;
 
-    @FindBy(css="#legacy-header .iherb-header.stackable-base .iherb-header-primary .container-fluid .iherb-header-help-link.float-right")
+    @FindBy(css = "#legacy-header .iherb-header.stackable-base .iherb-header-primary .container-fluid .iherb-header-help-link.float-right")
     private WebElement helpButton;
 
     public BaseMenus(WebDriver driver) {
@@ -196,11 +196,11 @@ public class BaseMenus extends BasePage {
         sleep(2000);
     }
 
-    public void clickShareButton(){
+    public void clickShareButton() {
         click(shareButton);
     }
 
-    public void clickHelpButton(){
+    public void clickHelpButton() {
         click(helpButton);
     }
 

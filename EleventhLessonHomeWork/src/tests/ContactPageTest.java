@@ -32,5 +32,24 @@ public class ContactPageTest extends BaseTest {
     public void test4VerifySearchSuggestions() {
         ContactPage contactPage = new ContactPage(driver);
         contactPage.enterInputToSearchField("iHerb");
+        Assert.assertTrue(contactPage.verifySearchSuggestions("iHerb"));
+    }
+
+    @Test
+    public void test5VerifySearchSuggestionValidity() {
+        ContactPage contactPage = new ContactPage(driver);
+        contactPage.clickSearchSuggestion("What is iHerb?");
+    }
+
+    @Test
+    public void test6VerifySelectedAnswerTitle(){
+        ContactPage contactPage = new ContactPage(driver);
+        Assert.assertEquals(contactPage.getSearchAnswerTitle(),"What is iHerb?");
+    }
+
+    @Test
+    public void test7Verify(){
+        ContactPage contactPage = new ContactPage(driver);
+        contactPage.enterAndClickSearchField("iHerb");
     }
 }
