@@ -4,6 +4,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import java.awt.*;
+import java.awt.datatransfer.DataFlavor;
+
+import java.awt.datatransfer.UnsupportedFlavorException;
+import java.io.IOException;
+
 public class SharePanel extends BaseMenus {
 
     @FindBy(css = "#legacy-header .iherb-header.stackable-base .iherb-header-share.share-page.float-right .share-wrapper #share-page-container .share-social .share-facebook .icon-facebook")
@@ -43,10 +49,6 @@ public class SharePanel extends BaseMenus {
         return isElementDisplayedDisplayed(pinterestIcon);
     }
 
-    public String getShareableUrl() {
-        return getText(urlWindow);
-    }
-
     public void clickShortenUrlCheckbox() {
         click(shortenUrlCheckbox);
     }
@@ -55,7 +57,17 @@ public class SharePanel extends BaseMenus {
         click(copyButton);
     }
 
-    public void closeSharePanel(){
+    public void closeSharePanel() {
         click(closeButton);
+    }
+
+    public String getFromClipboard() {
+        click(copyButton);
+        try {
+            return (String) Toolkit.getDefaultToolkit().getSystemClipboard().getData(DataFlavor.stringFlavor);
+        } catch (IOException | UnsupportedFlavorException fe) {
+            System.out.println("Extraction failed due to : \n" + fe);
+        }
+        return null;
     }
 }

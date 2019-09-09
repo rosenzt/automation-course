@@ -34,30 +34,34 @@ public class SocialPanelTest extends BaseTest {
     @Test
     public void test4testInitialUrl() {
         SharePanel sharePanel = new SharePanel(driver);
-        Assert.assertEquals(sharePanel.getUrl(),sharePanel.getShareableUrl());
+        System.out.println("Current URL: " + sharePanel.getUrl());
+        System.out.println("Shareable URL: " + sharePanel.getFromClipboard());
+        Assert.assertEquals(sharePanel.getUrl(),sharePanel.getFromClipboard());
     }
 
     @Test
     public void test5testShortenUrls(){
         SharePanel sharePanel = new SharePanel(driver);
-        initialUrl = sharePanel.getShareableUrl();
+        initialUrl = sharePanel.getFromClipboard();
         sharePanel.clickShortenUrlCheckbox();
         sleep(1000);
-        shortenUrl = sharePanel.getShareableUrl();
+        shortenUrl = sharePanel.getFromClipboard();
+        System.out.println("Initail URL: " + initialUrl + "\nShorten URL: " + shortenUrl);
         Assert.assertNotEquals(initialUrl, shortenUrl);
     }
 
-    //@Test
+    @Test
     public void test6closeSharePanel(){
         SharePanel sharePanel = new SharePanel(driver);
         sharePanel.closeSharePanel();
+        sleep(1000);
+        Assert.assertFalse(sharePanel.verifyFacebookIconIsDisplayed());
     }
 
     @Test
     public void test7pasteUrl() {
         SharePanel sharePanel = new SharePanel(driver);
         openNewTab();
-        sleep(1000);
         goToUrl(shortenUrl);
         sleep(2000);
         Assert.assertEquals(initialUrl,sharePanel.getUrl());

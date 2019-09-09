@@ -43,9 +43,12 @@ public class BaseTest {
 
     void openNewTab() {
         ((JavascriptExecutor) driver).executeScript("window.open('about:blank','_blank');");
+        sleep(2000);
+        ArrayList<String> tabs = new ArrayList<>(driver.getWindowHandles());
+        driver.switchTo().window(tabs.get(1));
     }
 
     void goToUrl(String url){
-        driver.get(url);
+        driver.navigate().to(url);
     }
 }

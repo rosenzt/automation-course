@@ -1,9 +1,6 @@
 package pageobjects;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
@@ -69,6 +66,9 @@ public class BaseMenus extends BasePage {
                     //pressViewAllButton(category);
                     Actions actions = new Actions(driver);
                     //actions.moveToElement(element).moveToElement(pressViewAllButton(category)).click().build().perform();
+                    //actions.moveToElement(driver.findElement(By.linkText("Healthcare"))).doubleClick().build().perform();
+                    //actions.contextClick(driver.findElement(By.linkText("bla bla"))).build().perform();
+                    //actions.keyDown(Keys.).sendKeys(Keys.).build().perform();
                     actions.moveToElement(element).click().build().perform();
                 }
             } catch (Exception e) {
