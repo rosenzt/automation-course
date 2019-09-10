@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfcdbf2a-353f-4698-aa1a-2580202edc2f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/tests/ContactFormTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SeleniumC24L51/pageobjects/ContactPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SeleniumC24L51/pageobjects/ContactPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SeleniumC24L51/tests/ContactPageTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pageobjects/ContactPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/ContactPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/ContactPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/ContactPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/ContactPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/ContactPageSearchTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,45 +21,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/ContactPageSearchTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/tests/ContactPageTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="58" lean-forward="true" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pageobjects/BaseMenus.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-520">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#7367#7368#0" expanded="true" />
-                <element signature="e#7400#7401#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pageobjects/ContactPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
+            <state relative-caret-position="693">
+              <caret line="197" lean-forward="true" selection-start-line="197" selection-end-line="197" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1051#1052#0" expanded="true" />
-                <element signature="e#1099#1100#0" expanded="true" />
-                <element signature="e#1148#1149#0" expanded="true" />
-                <element signature="e#1210#1211#0" expanded="true" />
-                <element signature="e#2341#2342#0" expanded="true" />
-                <element signature="e#2392#2393#0" expanded="true" />
+                <element signature="e#5197#5198#0" expanded="true" />
+                <element signature="e#5268#5269#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/ContactFormTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pageobjects/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+            <state relative-caret-position="-198">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#918#919#0" expanded="true" />
@@ -125,6 +122,7 @@
         <option value="$PROJECT_DIR$/src/tests/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/tests/SocialPanelTest.java" />
         <option value="$PROJECT_DIR$/src/tests/ContactPageTest.java" />
+        <option value="$PROJECT_DIR$/src/tests/ContactFormTest.java" />
         <option value="$PROJECT_DIR$/src/pageobjects/ContactPage.java" />
       </list>
     </option>
@@ -142,7 +140,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,6 +168,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,8 +191,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ContactPageTest">
-    <configuration name="ContactPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ContactFormTest">
+    <configuration name="ContactFormTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumC24L51" />
       <extension name="coverage">
         <pattern>
@@ -203,7 +201,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ContactPageTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.ContactFormTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -211,7 +209,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContactPageTest.test1OpenContactPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactPageSearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumC24L51" />
       <extension name="coverage">
         <pattern>
@@ -220,26 +218,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ContactPageTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.ContactPageSearchTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactPageSearchTest.test1OpenContactPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumC24L51" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ContactPageSearchTest" />
       <option name="METHOD_NAME" value="test1OpenContactPage" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HeaderTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumC24L51" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.HeaderTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -282,11 +280,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ContactPageTest" />
-        <item itemvalue="TestNG.ContactPageTest.test1OpenContactPage" />
+        <item itemvalue="TestNG.ContactFormTest" />
+        <item itemvalue="TestNG.ContactPageSearchTest" />
+        <item itemvalue="TestNG.ContactPageSearchTest.test1OpenContactPage" />
         <item itemvalue="TestNG.SocialPanelTest" />
         <item itemvalue="TestNG.SupplementsTest" />
-        <item itemvalue="TestNG.HeaderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -304,42 +302,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ContactPageTest - 2019.09.09 at 17h 03m 10s.xml">
-      <configuration name="ContactPageTest" configurationId="TestNG" />
+    <history-entry file="ContactFormTest - 2019.09.10 at 17h 59m 51s.xml">
+      <configuration name="ContactFormTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactPageTest - 2019.09.09 at 17h 04m 39s.xml">
-      <configuration name="ContactPageTest" configurationId="TestNG" />
+    <history-entry file="ContactFormTest - 2019.09.10 at 18h 01m 42s.xml">
+      <configuration name="ContactFormTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactPageTest - 2019.09.09 at 17h 06m 27s.xml">
-      <configuration name="ContactPageTest" configurationId="TestNG" />
+    <history-entry file="ContactFormTest - 2019.09.10 at 18h 02m 48s.xml">
+      <configuration name="ContactFormTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactPageTest - 2019.09.09 at 17h 09m 54s.xml">
-      <configuration name="ContactPageTest" configurationId="TestNG" />
+    <history-entry file="ContactFormTest - 2019.09.10 at 18h 05m 22s.xml">
+      <configuration name="ContactFormTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactPageTest - 2019.09.09 at 17h 11m 57s.xml">
-      <configuration name="ContactPageTest" configurationId="TestNG" />
+    <history-entry file="ContactFormTest - 2019.09.10 at 18h 11m 22s.xml">
+      <configuration name="ContactFormTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactPageTest - 2019.09.09 at 17h 13m 02s.xml">
-      <configuration name="ContactPageTest" configurationId="TestNG" />
+    <history-entry file="ContactFormTest - 2019.09.10 at 18h 12m 13s.xml">
+      <configuration name="ContactFormTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactPageTest_test1OpenContactPage - 2019.09.09 at 17h 14m 01s.xml">
-      <configuration name="ContactPageTest.test1OpenContactPage" configurationId="TestNG" />
+    <history-entry file="ContactFormTest - 2019.09.10 at 18h 13m 09s.xml">
+      <configuration name="ContactFormTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactPageTest - 2019.09.09 at 17h 14m 31s.xml">
-      <configuration name="ContactPageTest" configurationId="TestNG" />
+    <history-entry file="ContactFormTest - 2019.09.10 at 18h 15m 54s.xml">
+      <configuration name="ContactFormTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactPageTest - 2019.09.09 at 17h 16m 54s.xml">
-      <configuration name="ContactPageTest" configurationId="TestNG" />
+    <history-entry file="ContactFormTest - 2019.09.10 at 18h 18m 11s.xml">
+      <configuration name="ContactFormTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactPageTest - 2019.09.09 at 17h 17m 54s.xml">
-      <configuration name="ContactPageTest" configurationId="TestNG" />
+    <history-entry file="ContactFormTest - 2019.09.10 at 18h 21m 02s.xml">
+      <configuration name="ContactFormTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="23" width="1920" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18956336" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19116081" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -348,7 +346,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.43523315" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946752" visible="true" weight="0.32435232" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" weight="0.32435232" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5119171" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -535,22 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageobjects/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#918#919#0" expanded="true" />
-            <element signature="e#953#954#0" expanded="true" />
-            <element signature="e#1126#1127#0" expanded="true" />
-            <element signature="e#1166#1167#0" expanded="true" />
-            <element signature="e#1923#1924#0" expanded="true" />
-            <element signature="e#1968#1969#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/SupplementsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -573,7 +555,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pageobjects/BaseMenus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-520">
+        <state relative-caret-position="60">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -583,28 +565,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageobjects/ContactPage.java">
+    <entry file="file://$PROJECT_DIR$/src/tests/ContactPageSearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
+        <state relative-caret-position="120">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1051#1052#0" expanded="true" />
-            <element signature="e#1099#1100#0" expanded="true" />
-            <element signature="e#1148#1149#0" expanded="true" />
-            <element signature="e#1210#1211#0" expanded="true" />
-            <element signature="e#2341#2342#0" expanded="true" />
-            <element signature="e#2392#2393#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/ContactPageTest.java">
+    <entry file="file://$PROJECT_DIR$/src/pageobjects/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="58" lean-forward="true" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+        <state relative-caret-position="-198">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#918#919#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#1126#1127#0" expanded="true" />
+            <element signature="e#1166#1167#0" expanded="true" />
+            <element signature="e#1923#1924#0" expanded="true" />
+            <element signature="e#1968#1969#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/ContactFormTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pageobjects/ContactPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="197" lean-forward="true" selection-start-line="197" selection-end-line="197" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5197#5198#0" expanded="true" />
+            <element signature="e#5268#5269#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import pageobjects.BaseMenus;
 import pageobjects.ContactPage;
 
-public class ContactPageTest extends BaseTest {
+public class ContactPageSearchTest extends BaseTest {
 
     @Test
     public void test1OpenContactPage() {
@@ -48,8 +48,16 @@ public class ContactPageTest extends BaseTest {
     }
 
     @Test
-    public void test7Verify(){
+    public void test7VerifyKeyboardSearchClicking(){
         ContactPage contactPage = new ContactPage(driver);
         contactPage.enterAndClickSearchField("iHerb");
+        Assert.assertTrue(contactPage.verifySuggestionIsDisplayed());
+    }
+
+    @Test
+    public void test8VerifyTitleIsClickable(){
+        ContactPage contactPage = new ContactPage(driver);
+        contactPage.suggestions();
+        contactPage.clickAnswerTitle("What is iHerb?");
     }
  }
