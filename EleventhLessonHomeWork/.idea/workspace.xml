@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfcdbf2a-353f-4698-aa1a-2580202edc2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tests/ContactFormTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SeleniumC24L51/pageobjects/ContactPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SeleniumC24L51/pageobjects/ContactPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SeleniumC24L51/tests/ContactPageTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pageobjects/ContactPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/ContactPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/ContactPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/ContactPageSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/ContactFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/ContactFormTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,36 +19,26 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tests/ContactPageSearchTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pageobjects/ContactPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="197" lean-forward="true" selection-start-line="197" selection-end-line="197" />
+            <state relative-caret-position="241">
+              <caret line="182" column="53" selection-start-line="182" selection-start-column="53" selection-end-line="182" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#5128#5129#0" expanded="true" />
                 <element signature="e#5197#5198#0" expanded="true" />
+                <element signature="e#5235#5236#0" expanded="true" />
                 <element signature="e#5268#5269#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tests/ContactFormTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+            <state relative-caret-position="420">
+              <caret line="28" column="84" selection-start-line="28" selection-start-column="84" selection-end-line="28" selection-end-column="84" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pageobjects/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-198">
+            <state relative-caret-position="345">
               <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -122,8 +109,8 @@
         <option value="$PROJECT_DIR$/src/tests/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/tests/SocialPanelTest.java" />
         <option value="$PROJECT_DIR$/src/tests/ContactPageTest.java" />
-        <option value="$PROJECT_DIR$/src/tests/ContactFormTest.java" />
         <option value="$PROJECT_DIR$/src/pageobjects/ContactPage.java" />
+        <option value="$PROJECT_DIR$/src/tests/ContactFormTest.java" />
       </list>
     </option>
   </component>
@@ -139,7 +126,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,6 +154,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -302,34 +289,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ContactFormTest - 2019.09.10 at 17h 59m 51s.xml">
+    <history-entry file="ContactFormTest - 2019.09.11 at 13h 25m 22s.xml">
       <configuration name="ContactFormTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactFormTest - 2019.09.10 at 18h 01m 42s.xml">
+    <history-entry file="ContactFormTest - 2019.09.11 at 13h 27m 59s.xml">
       <configuration name="ContactFormTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactFormTest - 2019.09.10 at 18h 02m 48s.xml">
+    <history-entry file="ContactFormTest - 2019.09.11 at 15h 04m 55s.xml">
       <configuration name="ContactFormTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactFormTest - 2019.09.10 at 18h 05m 22s.xml">
+    <history-entry file="ContactFormTest - 2019.09.11 at 15h 27m 43s.xml">
       <configuration name="ContactFormTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactFormTest - 2019.09.10 at 18h 11m 22s.xml">
+    <history-entry file="ContactFormTest - 2019.09.11 at 15h 29m 30s.xml">
       <configuration name="ContactFormTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactFormTest - 2019.09.10 at 18h 12m 13s.xml">
+    <history-entry file="ContactFormTest - 2019.09.11 at 15h 52m 03s.xml">
       <configuration name="ContactFormTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactFormTest - 2019.09.10 at 18h 13m 09s.xml">
+    <history-entry file="ContactFormTest - 2019.09.11 at 15h 53m 23s.xml">
       <configuration name="ContactFormTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactFormTest - 2019.09.10 at 18h 15m 54s.xml">
+    <history-entry file="ContactFormTest - 2019.09.11 at 15h 58m 33s.xml">
       <configuration name="ContactFormTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactFormTest - 2019.09.10 at 18h 18m 11s.xml">
+    <history-entry file="ContactFormTest - 2019.09.11 at 16h 00m 51s.xml">
       <configuration name="ContactFormTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactFormTest - 2019.09.10 at 18h 21m 02s.xml">
+    <history-entry file="ContactFormTest - 2019.09.11 at 16h 04m 36s.xml">
       <configuration name="ContactFormTest" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -337,7 +324,7 @@
     <frame x="1920" y="23" width="1920" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19116081" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19329074" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -346,7 +333,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.43523315" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" weight="0.32435232" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" visible="true" weight="0.32746115" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5119171" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -565,19 +552,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/ContactPageSearchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pageobjects/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
+        <state relative-caret-position="345">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -591,10 +568,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/ContactFormTest.java">
+    <entry file="file://$PROJECT_DIR$/src/tests/ContactPageSearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+        <state relative-caret-position="318">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -603,12 +580,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pageobjects/ContactPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="197" lean-forward="true" selection-start-line="197" selection-end-line="197" />
+        <state relative-caret-position="241">
+          <caret line="182" column="53" selection-start-line="182" selection-start-column="53" selection-end-line="182" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#5128#5129#0" expanded="true" />
             <element signature="e#5197#5198#0" expanded="true" />
+            <element signature="e#5235#5236#0" expanded="true" />
             <element signature="e#5268#5269#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/ContactFormTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="84" selection-start-line="28" selection-start-column="84" selection-end-line="28" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

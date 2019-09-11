@@ -180,7 +180,7 @@ public class ContactPage extends BaseMenus {
     private void handleCategory(String category) {
         try {
             Select categorySelection = new Select(contactFormCategoryDropList);
-            categorySelection.selectByVisibleText(category);
+            categorySelection.selectByValue(category);
         } catch (Exception e) {
             System.out.println(e);
         }
@@ -196,10 +196,19 @@ public class ContactPage extends BaseMenus {
         return getText(successMessage);
     }
 
-    public void getErrorMessages() {
+    public String getErrorMessages() {
+        sleep(1000);
         for (WebElement element : errorList) {
             System.out.println(getText(element));
+            if (isElementDisplayedDisplayed(element)) {
+                return getText(element);
+            }
         }
+        return null;
+    }
+
+    public void validateErrorIsDisplayed(String error) {
+
     }
 
 }
