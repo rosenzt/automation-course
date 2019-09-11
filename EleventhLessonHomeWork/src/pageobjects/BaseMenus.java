@@ -110,6 +110,12 @@ public class BaseMenus extends BasePage {
         return null;
     }
 
+    public void testHoverMenu(String category){
+        Actions actions = new Actions(driver);
+        actions.moveToElement(selectHeaderCategory(category)).perform();
+        actions.moveToElement(driver.findElement(By.linkText("Sleep"))).click().perform();
+    }
+
     public void getSecondaryHeaderMenuItem(String category) {
         Actions actions = new Actions(driver);
         actions.moveToElement(selectHeaderCategory(category)).moveToElement(getSomeThing("New")).click().build().perform();

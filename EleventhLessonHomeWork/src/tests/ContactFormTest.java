@@ -15,7 +15,7 @@ public class ContactFormTest extends BaseTest{
         ContactPage contactPage = new ContactPage(driver);
         Assert.assertEquals(contactPage.getUrl(), "https://secure.iherb.com/info/Contact?livechat=en-US");
     }
-/**
+
     @Test
     public void test2VerifyChatWithUsForm(){
         ContactPage contactPage = new ContactPage(driver);
@@ -63,7 +63,7 @@ public class ContactFormTest extends BaseTest{
         contactPage.submitMessage();
         Assert.assertEquals(contactPage.getErrorMessages(),"");
     }
-**/
+
     @Test
     public void test8VerifyMessageFieldErrorMessage(){
         ContactPage contactPage = new ContactPage(driver);

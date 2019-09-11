@@ -1,5 +1,6 @@
 package tests;
 
+import com.sun.xml.internal.rngom.parse.host.Base;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageobjects.BaseMenus;
@@ -14,9 +15,15 @@ public class HeaderTest extends BaseTest {
         Assert.assertTrue(baseMenus.selectAndClickHeaderCategory("Beauty"));
     }
 
-    @Test
+    //@Test
     public void secondaryHeader() {
         BaseMenus baseMenus = new BaseMenus(driver);
         baseMenus.getSecondaryHeaderMenuItem("Supplements");
+    }
+
+    @Test
+    public void testLink(){
+        BaseMenus baseMenus = new BaseMenus(driver);
+        baseMenus.testHoverMenu("Supplements");
     }
 }
