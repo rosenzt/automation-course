@@ -67,7 +67,7 @@ public class ContactFormTest extends BaseTest{
     @Test
     public void test8VerifyMessageFieldErrorMessage(){
         ContactPage contactPage = new ContactPage(driver);
-        contactPage.fillContactUsForm("","abc@abc.com", "order__where_is_my_order","","");
+        contactPage.fillContactUsForm("","abc@abc.com", "account_admin","","");
         contactPage.submitMessage();
         Assert.assertEquals(contactPage.getErrorMessages(),"Message Required");
     }
