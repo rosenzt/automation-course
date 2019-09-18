@@ -8,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class HomePage extends BaseMenus {
 
-    @FindBy(css = ".selected-country-wrapper .icon.icon-checkoutarrow")
+    @FindBy(css=".selected-country-wrapper .language-select")//(css = ".selected-country-wrapper .icon.icon-checkoutarrow")
     private WebElement preferencesButton;
 
     @FindBy(css = ".language-menu .row > div:nth-child(2) .select-language.ui.fluid.search.selection.dropdown")
@@ -39,18 +39,14 @@ public class HomePage extends BaseMenus {
 
     public void switchLanguage(String language) {
         click(preferencesButton);
-        //sleep(1000);
         click(languageMenuButton);
-        //sleep(2000);
         for (WebElement el : languageDropDownList) {
             if (getText(el).toLowerCase().contains(language.toLowerCase())) {
                 click(el);
                 break;
             }
         }
-        //sleep(2000);
         click(savePreferencesButton);
-        //sleep(1000);
     }
 
     public void search(String name) {

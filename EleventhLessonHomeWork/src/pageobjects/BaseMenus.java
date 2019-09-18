@@ -8,10 +8,11 @@ import java.util.List;
 
 public class BaseMenus extends BasePage {
 
-    @FindBy(css = "#legacy-header .stackable-below .nav-item-list [data-sticky-header-menu-category] [data-ga-event-label]")
+    @FindBy(css = "header #universal-branded-header .iherb-header.iherb-header.iherb-header-layout.stackable-base .iherb-header-primary.branded-header .mega-menu.mega-menu-shop .sticky-header-menu-categories-list [data-sticky-header-menu-category]")
+//(css = "#legacy-header .stackable-below .nav-item-list [data-sticky-header-menu-category] [data-ga-event-label]")
     private List<WebElement> categories;
 
-    @FindBy(css = "li.sticky-header-menu-navigation-list-item.view-all [data-ga-event-label][data-ga-event-action]")//
+    @FindBy(css = "li.sticky-header-menu-navigation-list-item.view-all [data-ga-event-label][data-ga-event-action]")
     private List<WebElement> viewAllButtons;
 
     @FindBy(css = "#legacy-header .secondary-header-categories-menu [data-ga-event-label]")
@@ -53,25 +54,29 @@ public class BaseMenus extends BasePage {
     @FindBy(css = "#legacy-header .iherb-header.stackable-base .iherb-header-share.share-page.float-right .hidden-xs.hidden-sm")
     private WebElement shareButton;
 
-    @FindBy(css = "#legacy-header .iherb-header.stackable-base .iherb-header-primary .container-fluid .iherb-header-help-link.float-right")
+    @FindBy(css=".iherb-header-help-link")//(css = "#legacy-header .iherb-header.stackable-base .iherb-header-primary .container-fluid .iherb-header-help-link.float-right")
     private WebElement helpButton;
+
+    @FindBy(css="#universal-branded-header .branded-header-start .menu-dropdown.hidden-xs")
+    private List <WebElement> headerMenues;
 
     public BaseMenus(WebDriver driver) {
         super(driver);
     }
 
+    /**
+     * //actions.moveToElement(element).moveToElement(pressViewAllButton(category)).click().build().perform();
+     * //actions.moveToElement(driver.findElement(By.linkText("Healthcare"))).doubleClick().build().perform();
+     * //actions.contextClick(driver.findElement(By.linkText("bla bla"))).build().perform();
+     * //actions.keyDown(Keys.).sendKeys(Keys.).build().perform();
+     */
+
     public boolean selectAndClickHeaderCategory(String category) {
         for (WebElement element : categories) {
-            //if (element.getAttribute("data-ga-event-label").toLowerCase().equals(category.toLowerCase())) {
             try {
                 if (getText(element).toLowerCase().equals(category.toLowerCase())) {
                     //hoverOverElement(element);
-                    //pressViewAllButton(category);
                     Actions actions = new Actions(driver);
-                    //actions.moveToElement(element).moveToElement(pressViewAllButton(category)).click().build().perform();
-                    //actions.moveToElement(driver.findElement(By.linkText("Healthcare"))).doubleClick().build().perform();
-                    //actions.contextClick(driver.findElement(By.linkText("bla bla"))).build().perform();
-                    //actions.keyDown(Keys.).sendKeys(Keys.).build().perform();
                     actions.moveToElement(element).click().build().perform();
                 }
             } catch (Exception e) {
@@ -94,41 +99,37 @@ public class BaseMenus extends BasePage {
         return null;
     }
 
-    public WebElement pressViewAllButton(String category) { //Tried to click the "View All" buttons --> didn't work yet.
-        for (WebElement element : viewAllButtons) {
-            System.out.println("1");
-            System.out.println(getText(element));
-            if (element.getAttribute("href").toLowerCase().contains("//il.iherb.com/" + category.toLowerCase())) {
-                // if (getText(element).toLowerCase().equals(category.toLowerCase())) {
-                System.out.println("3");
-                return element;
-//                hoverOverElement(element);
-//                click(element);
-//                break;
-            }
+    public int handleCategories(String category) {
+        switch (category) {
+            case "Supplements":
+                return 4;
+            case "Herbs & Homeopathy":
+                return 11;
+            case "Bath & Personal Care":
+                return 12;
+            case "Beauty":
+                return 13;
+            case "Sports":
+                return 6;
+            case "Grocery":
+                return 7;
+            case "Baby & Kids":
+                return 8;
+            case "Pets":
+                return 9;
+            case "Home":
+                return 10;
+            case "Specialty Stores":
+                return 3;
+            default:
+                return 0;
         }
-        return null;
     }
 
-    public void testHoverMenu(String category){
+    public void testHoverMenu(String category, String linkText) {
         Actions actions = new Actions(driver);
         actions.moveToElement(selectHeaderCategory(category)).perform();
-        actions.moveToElement(driver.findElement(By.linkText("Sleep"))).click().perform();
-    }
-
-    public void getSecondaryHeaderMenuItem(String category) {
-        Actions actions = new Actions(driver);
-        actions.moveToElement(selectHeaderCategory(category)).moveToElement(getSomeThing("New")).click().build().perform();
-    }
-
-    private WebElement getSomeThing(String item) {
-        for (WebElement element : secondaryHearder) {
-            System.out.println(element.getAttribute("data-ga-event-label"));
-            if (element.getAttribute("data-ga-event-label").equals(item)) {
-                return element;
-            }
-        }
-        return null;
+        actions.moveToElement(driver.findElement(By.linkText(linkText))).click().perform();
     }
 
     /****
@@ -209,5 +210,7 @@ public class BaseMenus extends BasePage {
     public void clickHelpButton() {
         click(helpButton);
     }
+
+
 
 }
