@@ -12,7 +12,10 @@ public class SupplementsTest extends BaseTest {
     @Test
     public void test1MoveToSupplements() {
         Supplements supplements = new Supplements(driver);
-        supplements.selectAndClickHeaderCategory("Supplements");
+        //supplements.selectAndClickHeaderCategory("Supplements");
+        //supplements.headerMenu("Shop");
+        //supplements.selectHeaderCategory("Supplements");
+        supplements.testNewMenu("Shop","Supplements", "Supplements" );
         initialTotalProducts = supplements.getLastPaginationValue();
         Assert.assertEquals("iherb.com/c/supplements", supplements.getUrl().substring(supplements.getUrl().length() - 23));
     }

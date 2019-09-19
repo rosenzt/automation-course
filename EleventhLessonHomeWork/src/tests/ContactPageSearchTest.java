@@ -13,7 +13,7 @@ public class ContactPageSearchTest extends BaseTest {
         baseMenus.clickHelpButton();
         sleep(1000);
         ContactPage contactPage = new ContactPage(driver);
-        Assert.assertEquals(contactPage.getUrl(), "https://secure.iherb.com/info/Contact?livechat=en-US");
+        Assert.assertEquals(contactPage.getUrl(), "https://secure.iherb.com/info/contact?livechat=en-US");
     }
 
     @Test

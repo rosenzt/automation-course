@@ -43,6 +43,7 @@ public class HomePage extends BaseMenus {
         for (WebElement el : languageDropDownList) {
             if (getText(el).toLowerCase().contains(language.toLowerCase())) {
                 click(el);
+                sleep(500);
                 break;
             }
         }

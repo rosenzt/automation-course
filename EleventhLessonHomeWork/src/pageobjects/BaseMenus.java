@@ -8,7 +8,10 @@ import java.util.List;
 
 public class BaseMenus extends BasePage {
 
-    @FindBy(css = "header #universal-branded-header .iherb-header.iherb-header.iherb-header-layout.stackable-base .iherb-header-primary.branded-header .mega-menu.mega-menu-shop .sticky-header-menu-categories-list [data-sticky-header-menu-category]")
+    @FindBy(css = "#universal-branded-header .branded-header-start .menu-dropdown")
+    private WebElement headerDropdown;
+
+    @FindBy(css = "#universal-branded-header .iherb-header.iherb-header.iherb-header-layout.stackable-base .iherb-header-primary.branded-header .mega-menu.mega-menu-shop .sticky-header-menu-categories-list [data-sticky-header-menu-category]")
 //(css = "#legacy-header .stackable-below .nav-item-list [data-sticky-header-menu-category] [data-ga-event-label]")
     private List<WebElement> categories;
 
@@ -51,14 +54,16 @@ public class BaseMenus extends BasePage {
     @FindBy(css = "#FilteredProducts .applied-filters .applied-filter-row .applied-filter")
     private List<WebElement> appliedFilter;
 
-    @FindBy(css = "#legacy-header .iherb-header.stackable-base .iherb-header-share.share-page.float-right .hidden-xs.hidden-sm")
+    @FindBy(css = ".iherb-header-primary.branded-header .branded-header-end .iherb-header-share.share-page .hidden-xs.hidden-sm")
+//(css = "#legacy-header .iherb-header.stackable-base .iherb-header-share.share-page.float-right .hidden-xs.hidden-sm")
     private WebElement shareButton;
 
-    @FindBy(css=".iherb-header-help-link")//(css = "#legacy-header .iherb-header.stackable-base .iherb-header-primary .container-fluid .iherb-header-help-link.float-right")
+    @FindBy(css = ".iherb-header-help-link")
+//(css = "#legacy-header .iherb-header.stackable-base .iherb-header-primary .container-fluid .iherb-header-help-link.float-right")
     private WebElement helpButton;
 
-    @FindBy(css="#universal-branded-header .branded-header-start .menu-dropdown.hidden-xs")
-    private List <WebElement> headerMenues;
+    @FindBy(css = "#universal-branded-header .branded-header-start .menu-dropdown.hidden-xs")
+    private List<WebElement> headerMenues;
 
     public BaseMenus(WebDriver driver) {
         super(driver);
@@ -70,6 +75,25 @@ public class BaseMenus extends BasePage {
      * //actions.contextClick(driver.findElement(By.linkText("bla bla"))).build().perform();
      * //actions.keyDown(Keys.).sendKeys(Keys.).build().perform();
      */
+
+    public String handleHeaderMenu(String menu) {
+        switch (menu.toLowerCase()) {
+            case "Shop":
+                return ".shop-menu";
+            case "Brands":
+                return ".brands-menu";
+            case "Help With":
+                return ".help-with-menu";
+            case "Deals":
+                return ".hidden-xs.hidden-sm";
+            default:
+                return null;
+        }
+    }
+
+    public void headerMenu(String menu) {
+        moveToElement(headerDropdown.toString() + handleHeaderMenu(menu.toLowerCase()));
+    }
 
     public boolean selectAndClickHeaderCategory(String category) {
         for (WebElement element : categories) {
@@ -86,10 +110,12 @@ public class BaseMenus extends BasePage {
         return getUrl().toLowerCase().contains(category.toLowerCase());
     }
 
+
     public WebElement selectHeaderCategory(String category) {
         for (WebElement element : categories) {
             try {
-                if (getText(element).toLowerCase().equals(category.toLowerCase())) {
+                if (Integer.valueOf(getText(element)) == (handleCategories(category))) {
+                    //moveAndClick(element);
                     return element;
                 }
             } catch (Exception e) {
@@ -99,7 +125,7 @@ public class BaseMenus extends BasePage {
         return null;
     }
 
-    public int handleCategories(String category) {
+    private int handleCategories(String category) {
         switch (category) {
             case "Supplements":
                 return 4;
@@ -131,6 +157,19 @@ public class BaseMenus extends BasePage {
         actions.moveToElement(selectHeaderCategory(category)).perform();
         actions.moveToElement(driver.findElement(By.linkText(linkText))).click().perform();
     }
+
+
+    public void testNewMenu(String menu, String category, String linkText) {
+        System.out.println(headerDropdown.toString() + handleHeaderMenu(menu.toLowerCase()));
+        System.out.println(selectHeaderCategory(category));
+
+        Actions actions = new Actions(driver);
+        actions.moveToElement(driver.findElement(By.cssSelector(headerDropdown.toString() + handleHeaderMenu(menu.toLowerCase())))).build().perform();//Mega menu
+        actions.moveToElement(selectHeaderCategory(category)).build().perform();
+        actions.moveToElement(driver.findElement(By.linkText(linkText))).click().perform();    //Link
+
+    }
+
 
     /****
      * Tried to click elements visible only while hover over is in effect -> didn't work
@@ -210,7 +249,6 @@ public class BaseMenus extends BasePage {
     public void clickHelpButton() {
         click(helpButton);
     }
-
 
 
 }

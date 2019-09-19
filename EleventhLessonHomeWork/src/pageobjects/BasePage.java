@@ -1,5 +1,6 @@
 package pageobjects;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -66,9 +67,18 @@ abstract class BasePage {
         eventFiringWebDriver.executeScript("document.querySelector(" + element + ").scrollTop = 500");
     }
 
-    void hoverOverElement(WebElement element) {
+    void moveToElement(WebElement element){
         Actions action = new Actions(driver);
         action.moveToElement(element).perform();
+    }
+
+    void moveToElement(String css){
+        Actions actions = new Actions(driver);
+        actions.moveToElement(driver.findElement(By.cssSelector(css))).build().perform();
+    }
+    void moveAndClick(WebElement element) {
+        Actions action = new Actions(driver);
+        action.moveToElement(element).click().build().perform();
     }
 
     public String getUrl() {

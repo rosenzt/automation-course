@@ -1,8 +1,6 @@
 package tests;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeClass;
@@ -23,10 +21,19 @@ public class BaseTest {
         driver.manage().window().maximize();
         driver.get("https://www.iherb.com");
 
-        HomePage homePage = new HomePage(driver);
-        homePage.switchLanguage("English");
+        changeLanguage();
     }
 
+    private void changeLanguage(){
+        HomePage homePage = new HomePage(driver);
+        homePage.switchLanguage("English");
+        sleep(2000);
+
+        if (!homePage.getUrl().toLowerCase().contains("www.iherb.com/")){
+            changeLanguage();
+        }
+        sleep(2000);
+    }
 
 //    @AfterClass
 //    public void tearDown() {

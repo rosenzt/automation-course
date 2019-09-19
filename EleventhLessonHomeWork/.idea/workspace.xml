@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfcdbf2a-353f-4698-aa1a-2580202edc2f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SeleniumC24L51/pageobjects/BaseMenus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SeleniumC24L51/pageobjects/BaseMenus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SeleniumC24L51/pageobjects/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SeleniumC24L51/pageobjects/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SeleniumC24L51/tests/ContactFormTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SeleniumC24L51/tests/ContactFormTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SeleniumC24L51/tests/HeaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SeleniumC24L51/tests/HeaderTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pageobjects/BaseMenus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/BaseMenus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pageobjects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pageobjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/HeaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/HeaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pageobjects/SharePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/SharePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/ContactFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/ContactFormTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/ContactPageSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/ContactPageSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/SupplementsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/SupplementsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tests/HeaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+            <state relative-caret-position="285">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,63 +35,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tests/SupplementsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+            <state relative-caret-position="230">
+              <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tests/SocialPanelTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tests/ContactFormTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" column="58" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tests/ContactPageSearchTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tests/BaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1408#1409#0" expanded="true" />
-                <element signature="e#1449#1450#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,10 +50,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pageobjects/BaseMenus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="679">
-              <caret line="69" column="92" lean-forward="true" selection-start-line="69" selection-start-column="92" selection-end-line="69" selection-end-column="92" />
+            <state relative-caret-position="454">
+              <caret line="149" column="20" lean-forward="true" selection-start-line="149" selection-start-column="20" selection-end-line="149" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2868#2869#0" expanded="true" />
+                <element signature="e#2897#2898#0" expanded="true" />
+                <element signature="e#6110#6111#0" expanded="true" />
+                <element signature="e#6144#6145#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pageobjects/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="678">
+              <caret line="78" column="43" lean-forward="true" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#918#919#0" expanded="true" />
@@ -127,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pageobjects/HomePage.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+            <state relative-caret-position="513">
+              <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -173,23 +127,24 @@
         <option value="$PROJECT_DIR$/src/pageobjects/ProductPage.java" />
         <option value="$PROJECT_DIR$/src/pageobjects/Header.java" />
         <option value="$PROJECT_DIR$/src/pageobjects/Supplements.java" />
-        <option value="$PROJECT_DIR$/src/tests/SupplementsTest.java" />
         <option value="$PROJECT_DIR$/src/pageobjects/sharePanel.java" />
         <option value="$PROJECT_DIR$/src/tests/socialPanelTest.java" />
-        <option value="$PROJECT_DIR$/src/pageobjects/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/pageobjects/SharePanel.java" />
-        <option value="$PROJECT_DIR$/src/tests/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/tests/SocialPanelTest.java" />
         <option value="$PROJECT_DIR$/src/tests/ContactPageTest.java" />
         <option value="$PROJECT_DIR$/src/pageobjects/ContactPage.java" />
+        <option value="$PROJECT_DIR$/src/tests/HeaderTest.java" />
+        <option value="$PROJECT_DIR$/src/tests/ContactPageSearchTest.java" />
         <option value="$PROJECT_DIR$/src/tests/ContactFormTest.java" />
         <option value="$PROJECT_DIR$/src/pageobjects/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/tests/HeaderTest.java" />
+        <option value="$PROJECT_DIR$/src/pageobjects/SharePanel.java" />
+        <option value="$PROJECT_DIR$/src/pageobjects/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/tests/SupplementsTest.java" />
+        <option value="$PROJECT_DIR$/src/tests/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/pageobjects/BaseMenus.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1920" />
     <option name="y" value="23" />
     <option name="width" value="1920" />
@@ -253,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ContactPageSearchTest">
+  <component name="RunManager" selected="TestNG.SupplementsTest">
     <configuration name="ContactFormTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumC24L51" />
       <extension name="coverage">
@@ -341,10 +296,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ContactPageSearchTest" />
-        <item itemvalue="TestNG.ContactFormTest" />
-        <item itemvalue="TestNG.SocialPanelTest" />
         <item itemvalue="TestNG.SupplementsTest" />
+        <item itemvalue="TestNG.SocialPanelTest" />
+        <item itemvalue="TestNG.ContactFormTest" />
+        <item itemvalue="TestNG.ContactPageSearchTest" />
         <item itemvalue="TestNG.HeaderTest" />
       </list>
     </recent_temporary>
@@ -363,39 +318,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ContactFormTest - 2019.09.11 at 16h 38m 15s.xml">
-      <configuration name="ContactFormTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HeaderTest - 2019.09.18 at 12h 32m 43s.xml">
-      <configuration name="HeaderTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HeaderTest - 2019.09.18 at 12h 33m 11s.xml">
-      <configuration name="HeaderTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HeaderTest - 2019.09.18 at 12h 38m 15s.xml">
-      <configuration name="HeaderTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HeaderTest - 2019.09.18 at 12h 38m 54s.xml">
-      <configuration name="HeaderTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HeaderTest - 2019.09.18 at 12h 41m 45s.xml">
-      <configuration name="HeaderTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HeaderTest - 2019.09.18 at 12h 42m 21s.xml">
-      <configuration name="HeaderTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SupplementsTest - 2019.09.18 at 12h 43m 24s.xml">
-      <configuration name="SupplementsTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SocialPanelTest - 2019.09.18 at 13h 20m 38s.xml">
+    <history-entry file="SocialPanelTest - 2019.09.19 at 15h 23m 08s.xml">
       <configuration name="SocialPanelTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactFormTest - 2019.09.18 at 13h 21m 16s.xml">
-      <configuration name="ContactFormTest" configurationId="TestNG" />
+    <history-entry file="SocialPanelTest - 2019.09.19 at 15h 29m 02s.xml">
+      <configuration name="SocialPanelTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SocialPanelTest - 2019.09.19 at 15h 50m 59s.xml">
+      <configuration name="SocialPanelTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SupplementsTest - 2019.09.19 at 15h 51m 49s.xml">
+      <configuration name="SupplementsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SupplementsTest - 2019.09.19 at 15h 53m 01s.xml">
+      <configuration name="SupplementsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SupplementsTest - 2019.09.19 at 15h 58m 33s.xml">
+      <configuration name="SupplementsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SupplementsTest - 2019.09.19 at 17h 59m 50s.xml">
+      <configuration name="SupplementsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SupplementsTest - 2019.09.19 at 18h 03m 52s.xml">
+      <configuration name="SupplementsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SupplementsTest - 2019.09.19 at 18h 19m 20s.xml">
+      <configuration name="SupplementsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SupplementsTest - 2019.09.19 at 18h 21m 09s.xml">
+      <configuration name="SupplementsTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="23" width="1920" height="1057" extended-state="0" />
+    <frame x="1920" y="23" width="1920" height="1057" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20181043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -413,7 +369,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5005325" side_tool="true" weight="0.67668396" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32953367" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32953367" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32953367" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -425,7 +381,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17838125" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20181043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -434,14 +390,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.43523315" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" weight="0.44455957" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" weight="0.32746115" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5119171" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5005325" side_tool="true" weight="0.67668396" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32953367" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32953367" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -514,26 +470,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageobjects/SharePanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="59" column="35" lean-forward="true" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1926#1927#0" expanded="true" />
-            <element signature="e#1990#1991#0" expanded="true" />
-            <element signature="e#2043#2044#0" expanded="true" />
-            <element signature="e#2106#2107#0" expanded="true" />
-            <element signature="e#2161#2162#0" expanded="true" />
-            <element signature="e#2226#2227#0" expanded="true" />
-            <element signature="e#2351#2352#0" expanded="true" />
-            <element signature="e#2392#2393#0" expanded="true" />
-            <element signature="e#2432#2433#0" expanded="true" />
-            <element signature="e#2465#2466#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/AddProductTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -576,20 +512,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/HeaderTest.java">
+    <entry file="file://$PROJECT_DIR$/src/pageobjects/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+        <state relative-caret-position="705">
+          <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/HeaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/ContactPageSearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/ContactFormTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pageobjects/SharePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="26" column="178" selection-start-line="26" selection-start-column="178" selection-end-line="26" selection-end-column="178" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1990#1991#0" expanded="true" />
+            <element signature="e#2019#2020#0" expanded="true" />
+            <element signature="e#2569#2570#0" expanded="true" />
+            <element signature="e#2603#2604#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/SocialPanelTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        <state relative-caret-position="225">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -598,20 +578,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        <state relative-caret-position="513">
+          <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1408#1409#0" expanded="true" />
-            <element signature="e#1449#1450#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pageobjects/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="678">
+          <caret line="78" column="43" lean-forward="true" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#918#919#0" expanded="true" />
@@ -624,50 +602,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/SupplementsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/ContactFormTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="58" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/ContactPageSearchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pageobjects/BaseMenus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="69" column="92" lean-forward="true" selection-start-line="69" selection-start-column="92" selection-end-line="69" selection-end-column="92" />
+        <state relative-caret-position="454">
+          <caret line="149" column="20" lean-forward="true" selection-start-line="149" selection-start-column="20" selection-end-line="149" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2868#2869#0" expanded="true" />
+            <element signature="e#2897#2898#0" expanded="true" />
+            <element signature="e#6110#6111#0" expanded="true" />
+            <element signature="e#6144#6145#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageobjects/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/src/tests/SupplementsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+        <state relative-caret-position="230">
+          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
